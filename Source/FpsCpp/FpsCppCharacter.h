@@ -6,6 +6,8 @@
 
 class UInputComponent;
 
+#define MAX_INVENTORY_ITEMS 4
+
 UCLASS(config=Game)
 class AFpsCppCharacter : public ACharacter
 {
@@ -56,6 +58,16 @@ protected:
 
 	/*Reference to the last seen pickup item. Nullptr if none*/
 	APickupActor* LastItemSeen;
+
+private:
+	/*Handles the Pickup Input*/
+	UFUNCTION()
+	void PickupItem();
+
+	/*The actual Inventory*/
+	UPROPERTY(VisibleAnywhere)
+	TArray<APickupActor*> Inventory;
+
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)

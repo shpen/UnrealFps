@@ -107,6 +107,9 @@ void AFpsCppCharacter::BeginPlay()
 
 	//Initializing our reference
 	LastItemSeen = nullptr;
+
+	//Initializing our Inventory
+	Inventory.SetNum(MAX_INVENTORY_ITEMS);
 }
 
 void AFpsCppCharacter::Tick(float DeltaTime)
@@ -163,20 +166,45 @@ void AFpsCppCharacter::Raycast()
 
 	APickupActor* Pickup = Cast<APickupActor>(RaycastHit.GetActor());
 
-	if (LastItemSeen && LastItemSeen != Pickup)
+	// Check if we are looking at something new
+	if (LastItemSeen != Pickup)
 	{
-		//If our character sees a different pickup then disable the glowing effect on the previous seen item
-		LastItemSeen->SetGlowEffect(false);
+		if (LastItemSeen)
+		{
+			// Disable the glowing effect on the previous seen item if it exists
+			LastItemSeen->SetGlowEffect(false);
+		}
+		
+		if (Pickup)
+		{
+			//Enable the glow effect on the current item if it exists
+			LastItemSeen = Pickup;
+			Pickup->SetGlowEffect(true);
+		}
+		else
+		{
+			// Re-Initialize if we are looking at nothing
+			LastItemSeen = nullptr;
+		}
 	}
+}
 
-	if (Pickup)
+void AFpsCppCharacter::PickupItem()
+{
+	if (LastItemSeen)
 	{
-		//Enable the glow effect on the current item
-		LastItemSeen = Pickup;
-		Pickup->SetGlowEffect(true);
-	}//Re-Initialize 
-	else LastItemSeen = nullptr;
+		//Find the first available slot
+		int32 AvailableSlot = Inventory.Find(nullptr);
 
+		if (AvailableSlot != INDEX_NONE)
+		{
+			//Add the item to the first valid slot we found
+			Inventory[AvailableSlot] = LastItemSeen;
+			//Destroy the item from the game
+			LastItemSeen->Destroy();
+		}
+		else GLog->Log("You can't carry any more items!");
+	}
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -208,6 +236,9 @@ void AFpsCppCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	PlayerInputComponent->BindAxis("TurnRate", this, &AFpsCppCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AFpsCppCharacter::LookUpAtRate);
+
+	//Action mapping of item interaction
+	InputComponent->BindAction("Use", IE_Pressed, this, &AFpsCppCharacter::PickupItem);
 }
 
 void AFpsCppCharacter::OnFire()
