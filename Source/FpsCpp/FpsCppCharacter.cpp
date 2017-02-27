@@ -104,12 +104,16 @@ void AFpsCppCharacter::BeginPlay()
 		VR_Gun->SetHiddenInGame(true, true);
 		Mesh1P->SetHiddenInGame(false, true);
 	}
+
+	//Initializing our reference
+	LastItemSeen = nullptr;
 }
 
 void AFpsCppCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	
+	/*
 	//Hit contains information about what the raycast hit.
 	FHitResult Hit;
 
@@ -137,6 +141,42 @@ void AFpsCppCharacter::Tick(float DeltaTime)
 	{
 		DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Green, true, -1, 0, 1.f);
 	}
+	*/
+
+	Raycast();
+}
+
+void AFpsCppCharacter::Raycast()
+{
+	//Calculating start and end location
+	FVector StartLocation = FirstPersonCameraComponent->GetComponentLocation();
+	FVector EndLocation = StartLocation + (FirstPersonCameraComponent->GetForwardVector() * RayLength);
+
+	FHitResult RaycastHit;
+
+	//Raycast should ignore the character
+	FCollisionQueryParams CQP;
+	CQP.AddIgnoredActor(this);
+
+	//Raycast
+	GetWorld()->LineTraceSingleByChannel(RaycastHit, StartLocation, EndLocation, ECollisionChannel::ECC_WorldDynamic, CQP);
+
+	APickupActor* Pickup = Cast<APickupActor>(RaycastHit.GetActor());
+
+	if (LastItemSeen && LastItemSeen != Pickup)
+	{
+		//If our character sees a different pickup then disable the glowing effect on the previous seen item
+		LastItemSeen->SetGlowEffect(false);
+	}
+
+	if (Pickup)
+	{
+		//Enable the glow effect on the current item
+		LastItemSeen = Pickup;
+		Pickup->SetGlowEffect(true);
+	}//Re-Initialize 
+	else LastItemSeen = nullptr;
+
 }
 
 //////////////////////////////////////////////////////////////////////////

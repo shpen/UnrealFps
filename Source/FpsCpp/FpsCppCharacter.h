@@ -1,6 +1,7 @@
 // Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 #pragma once
 #include "GameFramework/Character.h"
+#include "PickupActor.h"
 #include "FpsCppCharacter.generated.h"
 
 class UInputComponent;
@@ -50,6 +51,11 @@ protected:
 
 	void Tick(float DeltaTime) override;
 
+	/*Raycasts in front of the character to find usable items*/
+	void Raycast();
+
+	/*Reference to the last seen pickup item. Nullptr if none*/
+	APickupActor* LastItemSeen;
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
