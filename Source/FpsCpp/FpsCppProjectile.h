@@ -19,6 +19,9 @@ class AFpsCppProjectile : public AActor
 public:
 	AFpsCppProjectile();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Movement)
+	float Force;
+
 	/** called when projectile hits something */
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
