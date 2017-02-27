@@ -83,6 +83,7 @@ AFpsCppCharacter::AFpsCppCharacter()
 	// Ray casting defaults
 	DrawRay = false;
 	RayLength = 200.0f;
+	FireRate = 5.0f;
 }
 
 void AFpsCppCharacter::BeginPlay()
@@ -115,36 +116,6 @@ void AFpsCppCharacter::BeginPlay()
 void AFpsCppCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	
-	/*
-	//Hit contains information about what the raycast hit.
-	FHitResult Hit;
-
-	//The length of the ray in units.
-	//For more flexibility you can expose a public variable in the editor
-	//float RayLength = 200;
-
-	//The Origin of the raycast
-	FVector StartLocation = FirstPersonCameraComponent->GetComponentLocation();
-
-	//The EndLocation of the raycast
-	FVector EndLocation = StartLocation + (FirstPersonCameraComponent->GetForwardVector() * RayLength);
-
-	//Collision parameters. The following syntax means that we don't want the trace to be complex
-	FCollisionQueryParams CollisionParameters;
-
-	//Perform the line trace
-	//The ECollisionChannel parameter is used in order to determine what we are looking for when performing the raycast
-	ActorLineTraceSingle(Hit, StartLocation, EndLocation, ECollisionChannel::ECC_WorldDynamic, CollisionParameters);
-
-	//DrawDebugLine is used in order to see the raycast we performed
-	//The boolean parameter used here means that we want the lines to be persistent so we can see the actual raycast
-	//The last parameter is the width of the lines.
-	if (DrawRay)
-	{
-		DrawDebugLine(GetWorld(), StartLocation, EndLocation, FColor::Green, true, -1, 0, 1.f);
-	}
-	*/
 
 	Raycast();
 }
@@ -222,6 +193,7 @@ void AFpsCppCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	if (EnableTouchscreenMovement(PlayerInputComponent) == false)
 	{
 		PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AFpsCppCharacter::OnFire);
+		PlayerInputComponent->BindAction("Fire", IE_Released, this, &AFpsCppCharacter::OnFireReleased);
 	}
 
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AFpsCppCharacter::OnResetVR);
@@ -242,6 +214,16 @@ void AFpsCppCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 }
 
 void AFpsCppCharacter::OnFire()
+{
+	GetWorldTimerManager().SetTimer(FireTimerHandle, this, &AFpsCppCharacter::Fire, 1.0f / FireRate, true, 0.0f);
+}
+
+void AFpsCppCharacter::OnFireReleased()
+{
+	GetWorldTimerManager().ClearTimer(FireTimerHandle);
+}
+
+void AFpsCppCharacter::Fire()
 {
 	// try and fire a projectile
 	if (ProjectileClass != NULL)
@@ -272,10 +254,10 @@ void AFpsCppCharacter::OnFire()
 	}
 
 	// try and play the sound if specified
-	/*if (FireSound != NULL)
+	if (FireSound != NULL)
 	{
-		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
-	}*/
+	//UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+	}
 
 	// try and play a firing animation if specified
 	if (FireAnimation != NULL)

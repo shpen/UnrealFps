@@ -48,6 +48,10 @@ class AFpsCppCharacter : public ACharacter
 public:
 	AFpsCppCharacter();
 
+	UFUNCTION()
+	void Fire();
+
+	FTimerHandle FireTimerHandle;
 protected:
 	virtual void BeginPlay();
 
@@ -102,10 +106,16 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	float RayLength;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	float FireRate;
 protected:
 	
 	/** Fires a projectile. */
 	void OnFire();
+
+	/** Stops firing. */
+	void OnFireReleased();
 
 	/** Resets HMD orientation and position in VR. */
 	void OnResetVR();
