@@ -84,7 +84,7 @@ AFpsCppCharacter::AFpsCppCharacter()
 	// Ray casting defaults
 	DrawRay = false;
 	RayLength = 200.0f;
-	FireRate = 5.0f;
+	FireRate = 10.0f;
 }
 
 void AFpsCppCharacter::BeginPlay()
