@@ -8,6 +8,7 @@
 #include "Kismet/HeadMountedDisplayFunctionLibrary.h"
 #include "MotionControllerComponent.h"
 #include "DrawDebugHelpers.h"
+#include "MyPlayerController.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -178,6 +179,12 @@ void AFpsCppCharacter::PickupItem()
 	}
 }
 
+void AFpsCppCharacter::HandleInventoryInput()
+{
+	AMyPlayerController* Con = Cast<AMyPlayerController>(GetController());
+	if (Con) Con->HandleInventoryInput();
+}
+
 //////////////////////////////////////////////////////////////////////////
 // Input
 
@@ -211,6 +218,7 @@ void AFpsCppCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 
 	//Action mapping of item interaction
 	InputComponent->BindAction("Use", IE_Pressed, this, &AFpsCppCharacter::PickupItem);
+	InputComponent->BindAction("Inventory", IE_Pressed, this, &AFpsCppCharacter::HandleInventoryInput);
 }
 
 void AFpsCppCharacter::OnFire()

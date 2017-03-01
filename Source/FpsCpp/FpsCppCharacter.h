@@ -52,6 +52,15 @@ public:
 	void Fire();
 
 	FTimerHandle FireTimerHandle;
+
+	/*The actual Inventory*/
+	UPROPERTY(VisibleAnywhere)
+	TArray<APickupActor*> Inventory;
+
+	/*Handles the Inventory Input by sending information to the controller*/
+	UFUNCTION()
+	void HandleInventoryInput();
+
 protected:
 	virtual void BeginPlay();
 
@@ -67,10 +76,6 @@ private:
 	/*Handles the Pickup Input*/
 	UFUNCTION()
 	void PickupItem();
-
-	/*The actual Inventory*/
-	UPROPERTY(VisibleAnywhere)
-	TArray<APickupActor*> Inventory;
 
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
