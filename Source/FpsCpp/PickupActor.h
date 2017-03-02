@@ -38,6 +38,7 @@ public:
 	void SetGlowEffect(bool Status);
 
 	// Returns the Texture of our Pickup
-	FORCEINLINE UTexture2D* GetPickupTexture() { return PickupTexture; }
+    UFUNCTION(BlueprintCallable)
+	UTexture2D* GetPickupTexture() { return PickupTexture; }
 	
 };

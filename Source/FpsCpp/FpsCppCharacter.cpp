@@ -171,12 +171,52 @@ void AFpsCppCharacter::PickupItem()
 		if (AvailableSlot != INDEX_NONE)
 		{
 			//Add the item to the first valid slot we found
-			Inventory[AvailableSlot] = LastItemSeen;
+			Inventory[AvailableSlot] = LastItemSeen->GetClass()->GetDefaultObject<APickupActor>();
 			//Destroy the item from the game
 			LastItemSeen->Destroy();
 		}
 		else GLog->Log("You can't carry any more items!");
 	}
+}
+
+void AFpsCppCharacter::setEquippedItem(APickupActor *item)
+{
+    if (item)
+    {
+        CurrentlyEquippedItem = item;
+        GLog->Log("I've set a new equipped item: " + CurrentlyEquippedItem->GetName());
+    }
+    else GLog->Log("The Player has clicked an empty inventory slot");
+}
+
+void AFpsCppCharacter::DropEquippedItem()
+{
+    if (CurrentlyEquippedItem)
+    {
+        int32 IndexOfItem;
+        if (Inventory.Find(CurrentlyEquippedItem, IndexOfItem))
+        {
+            //The location of the drop
+            FVector DropLocation = GetActorLocation() + (GetActorForwardVector() * 200);
+
+            //Making a transform with default rotation and scale. Just setting up the location
+            //that was calculated above
+            FTransform Transform; Transform.SetLocation(DropLocation);
+
+            //Default actor spawn parameters
+            FActorSpawnParameters SpawnParams;
+
+            //Spawning our pickup
+            APickupActor* PickupToSpawn = GetWorld()->SpawnActor<APickupActor>(CurrentlyEquippedItem->GetClass(), Transform, SpawnParams);
+
+
+            if (PickupToSpawn)
+            {
+                //Unreference the item we've just placed
+                Inventory[IndexOfItem] = nullptr;
+            }
+        }
+    }
 }
 
 void AFpsCppCharacter::HandleInventoryInput()
@@ -217,8 +257,18 @@ void AFpsCppCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AFpsCppCharacter::LookUpAtRate);
 
 	//Action mapping of item interaction
-	InputComponent->BindAction("Use", IE_Pressed, this, &AFpsCppCharacter::PickupItem);
-	InputComponent->BindAction("Inventory", IE_Pressed, this, &AFpsCppCharacter::HandleInventoryInput);
+    PlayerInputComponent->BindAction("Use", IE_Pressed, this, &AFpsCppCharacter::PickupItem);
+    PlayerInputComponent->BindAction("Drop", IE_Pressed, this, &AFpsCppCharacter::DropEquippedItem);
+
+    FInputActionBinding InventoryBinding;
+    //We need this bind to execute on pause state
+    InventoryBinding.bExecuteWhenPaused = true;
+    InventoryBinding.ActionDelegate.BindDelegate(this, FName("HandleInventoryInput"));
+    InventoryBinding.ActionName = FName("Inventory");
+    InventoryBinding.KeyEvent = IE_Pressed;
+
+    //Binding the Inventory action
+    PlayerInputComponent->AddActionBinding(InventoryBinding);
 }
 
 void AFpsCppCharacter::OnFire()

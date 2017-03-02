@@ -17,16 +17,16 @@ class FPSCPP_API UInventorySlotWidget : public UUserWidget
 protected:
 	/*Holds a reference to the item texture*/
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-	UTexture2D* ItemTexture;
+	APickupActor* mItem;
 
 	/*Tells the player the equip the represented item from this widget*/
 	UFUNCTION(BlueprintCallable, Category = UI)
-	void SetEquippedItem();
+	void setEquippedItem();
 
 public:
-	/*Sets the item texture*/
+	/*Sets the item*/
 	UFUNCTION(BlueprintCallable, Category = UI)
-	void SetItemTexture(APickupActor* Item);
-	
+	void setItem(APickupActor *item);
+
 	
 };

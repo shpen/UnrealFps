@@ -31,6 +31,16 @@ void AMyPlayerController::HandleInventoryInput()
 
 			//Remove it from the viewport
 			InventoryWidgetRef->RemoveFromViewport();
+
+            //Tell the game that we want to register inputs for our game only and not for our UI
+            FInputModeGameOnly InputMode;
+            SetInputMode(InputMode);
+
+            //Hide the cursor of our game
+            bShowMouseCursor = false;
+
+            //Unpause the game
+            SetPause(false);
 		}
 		else
 		{
@@ -42,8 +52,17 @@ void AMyPlayerController::HandleInventoryInput()
 
 			//Show the inventory
 			InventoryWidgetRef->Show();
-		}
 
+            //Tell the game that we want to register inputs both for our game and UI
+            FInputModeGameAndUI InputMode;
+            SetInputMode(InputMode);
+
+            //Show the cursor of our game
+            bShowMouseCursor = true;
+
+            //Pause the game
+            SetPause(true);
+		}
 	}
 }
 
