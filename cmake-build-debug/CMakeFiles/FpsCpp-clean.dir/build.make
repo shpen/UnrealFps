@@ -43,10 +43,10 @@ RM = /cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/cygdrive/d/Storage/Unreal/FpsCpp 4.15"
+CMAKE_SOURCE_DIR = /cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"
+CMAKE_BINARY_DIR = /cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug
 
 # Utility rule file for FpsCpp-clean.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"
 include CMakeFiles/FpsCpp-clean.dir/progress.make
 
 CMakeFiles/FpsCpp-clean:
-	cd D:/Epic\ Games/UnrealEngine/Engine/Binaries/DotNET && UnrealBuildTool.exe FpsCpp Win64 Development -project="D:/Storage/Unreal/FpsCpp\ 4.15/FpsCpp.uproject" -clean
+	cd D:/Epic\ Games/UnrealEngine/Engine/Binaries/DotNET && UnrealBuildTool.exe FpsCpp Win64 Development -project="D:/Storage/Unreal/FpsCpp-4.15-Source/FpsCpp.uproject" -clean
 
 FpsCpp-clean: CMakeFiles/FpsCpp-clean
 FpsCpp-clean: CMakeFiles/FpsCpp-clean.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/FpsCpp-clean.dir/clean:
 .PHONY : CMakeFiles/FpsCpp-clean.dir/clean
 
 CMakeFiles/FpsCpp-clean.dir/depend:
-	cd "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/cygdrive/d/Storage/Unreal/FpsCpp 4.15" "/cygdrive/d/Storage/Unreal/FpsCpp 4.15" "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug" "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug" "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/FpsCpp-clean.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source /cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source /cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug /cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug /cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/CMakeFiles/FpsCpp-clean.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/FpsCpp-clean.dir/depend
 

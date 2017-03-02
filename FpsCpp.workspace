@@ -2,9 +2,9 @@
 <CodeLite_Workspace Name="FpsCpp" SWTLW="Yes">
   <WorkspaceParserPaths>
     <Include Path="D:\Epic Games\UnrealEngine\Engine\Source" />
-    <Include Path="D:\Storage\Unreal\FpsCpp 4.15\Plugins\CLionSourceCodeAccess\Source" />
-    <Include Path="D:\Storage\Unreal\FpsCpp 4.15\Plugins\CLionSourceCodeAccess\Intermediate\Build\Win64\UE4Editor\Inc\CLionSourceCodeAccess" />
-    <Include Path="D:\Storage\Unreal\FpsCpp 4.15\Plugins\CLionSourceCodeAccess\Source\CLionSourceCodeAccess" />
+    <Include Path="D:\Storage\Unreal\FpsCpp-4.15-Source\Plugins\CLionSourceCodeAccess\Source" />
+    <Include Path="D:\Storage\Unreal\FpsCpp-4.15-Source\Plugins\CLionSourceCodeAccess\Intermediate\Build\Win64\UE4Editor\Inc\CLionSourceCodeAccess" />
+    <Include Path="D:\Storage\Unreal\FpsCpp-4.15-Source\Plugins\CLionSourceCodeAccess\Source\CLionSourceCodeAccess" />
     <Include Path="D:\Epic Games\UnrealEngine\Engine\Source\Runtime\Core\Public" />
     <Include Path="D:\Epic Games\UnrealEngine\Engine\Source\Runtime\Core\Public\Internationalization" />
     <Include Path="D:\Epic Games\UnrealEngine\Engine\Source\Runtime\Core\Public\Async" />
@@ -329,9 +329,9 @@
     <Include Path="D:\Epic Games\UnrealEngine\Engine\Source\Runtime\XmlParser\Public" />
     <Include Path="D:\Epic Games\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\XmlParser" />
     <Include Path="D:\Epic Games\UnrealEngine\Engine\Source\Runtime\XmlParser" />
-    <Include Path="D:\Storage\Unreal\FpsCpp 4.15\Source" />
-    <Include Path="D:\Storage\Unreal\FpsCpp 4.15\Intermediate\Build\Win64\UE4Editor\Inc\FpsCpp" />
-    <Include Path="D:\Storage\Unreal\FpsCpp 4.15\Source\FpsCpp" />
+    <Include Path="D:\Storage\Unreal\FpsCpp-4.15-Source\Source" />
+    <Include Path="D:\Storage\Unreal\FpsCpp-4.15-Source\Intermediate\Build\Win64\UE4Editor\Inc\FpsCpp" />
+    <Include Path="D:\Storage\Unreal\FpsCpp-4.15-Source\Source\FpsCpp" />
     <Include Path="D:\Epic Games\UnrealEngine\Engine\Source\Runtime\UMG\Public" />
     <Include Path="D:\Epic Games\UnrealEngine\Engine\Source\Runtime\UMG\Public\Animation" />
     <Include Path="D:\Epic Games\UnrealEngine\Engine\Source\Runtime\UMG\Public\Binding" />

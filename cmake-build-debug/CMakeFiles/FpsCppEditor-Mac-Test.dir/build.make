@@ -43,10 +43,10 @@ RM = /cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/cygdrive/d/Storage/Unreal/FpsCpp 4.15"
+CMAKE_SOURCE_DIR = /cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"
+CMAKE_BINARY_DIR = /cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug
 
 # Utility rule file for FpsCppEditor-Mac-Test.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"
 include CMakeFiles/FpsCppEditor-Mac-Test.dir/progress.make
 
 CMakeFiles/FpsCppEditor-Mac-Test:
-	cd D:/Epic\ Games/UnrealEngine/Engine/Binaries/DotNET && UnrealBuildTool.exe FpsCppEditor Win64 Test -project="D:/Storage/Unreal/FpsCpp\ 4.15/FpsCpp.uproject" -game
+	cd D:/Epic\ Games/UnrealEngine/Engine/Binaries/DotNET && UnrealBuildTool.exe FpsCppEditor Win64 Test -project="D:/Storage/Unreal/FpsCpp-4.15-Source/FpsCpp.uproject" -game
 
 FpsCppEditor-Mac-Test: CMakeFiles/FpsCppEditor-Mac-Test
 FpsCppEditor-Mac-Test: CMakeFiles/FpsCppEditor-Mac-Test.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/FpsCppEditor-Mac-Test.dir/clean:
 .PHONY : CMakeFiles/FpsCppEditor-Mac-Test.dir/clean
 
 CMakeFiles/FpsCppEditor-Mac-Test.dir/depend:
-	cd "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/cygdrive/d/Storage/Unreal/FpsCpp 4.15" "/cygdrive/d/Storage/Unreal/FpsCpp 4.15" "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug" "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug" "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/FpsCppEditor-Mac-Test.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source /cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source /cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug /cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug /cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/CMakeFiles/FpsCppEditor-Mac-Test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/FpsCppEditor-Mac-Test.dir/depend
 

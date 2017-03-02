@@ -1,4 +1,4 @@
-# Install script for directory: /cygdrive/d/Storage/Unreal/FpsCpp 4.15
+# Install script for directory: /cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

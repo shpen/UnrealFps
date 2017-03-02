@@ -5,121 +5,121 @@
 		<Option title="UE4"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Storage\;CMake Files\Storage\Unreal\;CMake Files\Storage\Unreal\FpsCpp 4.15\;CMake Files\Storage\Unreal\FpsCpp 4.15\Intermediate\;CMake Files\Storage\Unreal\FpsCpp 4.15\Intermediate\ProjectFiles\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Storage\;CMake Files\Storage\Unreal\;CMake Files\Storage\Unreal\FpsCpp-4.15-Source\;CMake Files\Storage\Unreal\FpsCpp-4.15-Source\Intermediate\;CMake Files\Storage\Unreal\FpsCpp-4.15-Source\Intermediate\ProjectFiles\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCppEditor-Mac-Test">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor-Mac-Test"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor-Mac-Test"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCpp">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCpp-Mac-Shipping-clean">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp-Mac-Shipping-clean"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp-Mac-Shipping-clean"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCpp-Mac-Test-clean">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp-Mac-Test-clean"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp-Mac-Test-clean"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCpp-clean">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp-clean"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp-clean"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCpp-Mac-DebugGame">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp-Mac-DebugGame"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp-Mac-DebugGame"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCppEditor-Mac-Shipping-clean">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor-Mac-Shipping-clean"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor-Mac-Shipping-clean"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCpp-Mac-Test">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp-Mac-Test"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp-Mac-Test"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCppEditor-Mac-Test-clean">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor-Mac-Test-clean"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor-Mac-Test-clean"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCppEditorFake">
-				<Option output="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/FpsCppEditorFake.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option output="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/FpsCppEditorFake.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -242,9 +242,9 @@
 					<Add option="-DMOVIESCENE_API="/>
 					<Add option="-DMOVIESCENETRACKS_API="/>
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Source"/>
-					<Add directory="D:/Storage/Unreal/FpsCpp 4.15/Plugins/CLionSourceCodeAccess/Source"/>
-					<Add directory="D:/Storage/Unreal/FpsCpp 4.15/Plugins/CLionSourceCodeAccess/Intermediate/Build/Win64/UE4Editor/Inc/CLionSourceCodeAccess"/>
-					<Add directory="D:/Storage/Unreal/FpsCpp 4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess"/>
+					<Add directory="D:/Storage/Unreal/FpsCpp-4.15-Source/Plugins/CLionSourceCodeAccess/Source"/>
+					<Add directory="D:/Storage/Unreal/FpsCpp-4.15-Source/Plugins/CLionSourceCodeAccess/Intermediate/Build/Win64/UE4Editor/Inc/CLionSourceCodeAccess"/>
+					<Add directory="D:/Storage/Unreal/FpsCpp-4.15-Source/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess"/>
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Source/Runtime/Core/Public"/>
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Source/Runtime/Core/Public/Internationalization"/>
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Source/Runtime/Core/Public/Async"/>
@@ -569,9 +569,9 @@
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Source/Runtime/XmlParser/Public"/>
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Intermediate/Build/Win64/UE4Editor/Inc/XmlParser"/>
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Source/Runtime/XmlParser"/>
-					<Add directory="D:/Storage/Unreal/FpsCpp 4.15/Source"/>
-					<Add directory="D:/Storage/Unreal/FpsCpp 4.15/Intermediate/Build/Win64/UE4Editor/Inc/FpsCpp"/>
-					<Add directory="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp"/>
+					<Add directory="D:/Storage/Unreal/FpsCpp-4.15-Source/Source"/>
+					<Add directory="D:/Storage/Unreal/FpsCpp-4.15-Source/Intermediate/Build/Win64/UE4Editor/Inc/FpsCpp"/>
+					<Add directory="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp"/>
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Source/Runtime/UMG/Public"/>
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Source/Runtime/UMG/Public/Animation"/>
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Source/Runtime/UMG/Public/Binding"/>
@@ -599,15 +599,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditorFake"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditorFake"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCppEditorFake/fast">
-				<Option output="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/FpsCppEditorFake.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option output="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/FpsCppEditorFake.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -730,9 +730,9 @@
 					<Add option="-DMOVIESCENE_API="/>
 					<Add option="-DMOVIESCENETRACKS_API="/>
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Source"/>
-					<Add directory="D:/Storage/Unreal/FpsCpp 4.15/Plugins/CLionSourceCodeAccess/Source"/>
-					<Add directory="D:/Storage/Unreal/FpsCpp 4.15/Plugins/CLionSourceCodeAccess/Intermediate/Build/Win64/UE4Editor/Inc/CLionSourceCodeAccess"/>
-					<Add directory="D:/Storage/Unreal/FpsCpp 4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess"/>
+					<Add directory="D:/Storage/Unreal/FpsCpp-4.15-Source/Plugins/CLionSourceCodeAccess/Source"/>
+					<Add directory="D:/Storage/Unreal/FpsCpp-4.15-Source/Plugins/CLionSourceCodeAccess/Intermediate/Build/Win64/UE4Editor/Inc/CLionSourceCodeAccess"/>
+					<Add directory="D:/Storage/Unreal/FpsCpp-4.15-Source/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess"/>
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Source/Runtime/Core/Public"/>
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Source/Runtime/Core/Public/Internationalization"/>
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Source/Runtime/Core/Public/Async"/>
@@ -1057,9 +1057,9 @@
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Source/Runtime/XmlParser/Public"/>
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Intermediate/Build/Win64/UE4Editor/Inc/XmlParser"/>
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Source/Runtime/XmlParser"/>
-					<Add directory="D:/Storage/Unreal/FpsCpp 4.15/Source"/>
-					<Add directory="D:/Storage/Unreal/FpsCpp 4.15/Intermediate/Build/Win64/UE4Editor/Inc/FpsCpp"/>
-					<Add directory="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp"/>
+					<Add directory="D:/Storage/Unreal/FpsCpp-4.15-Source/Source"/>
+					<Add directory="D:/Storage/Unreal/FpsCpp-4.15-Source/Intermediate/Build/Win64/UE4Editor/Inc/FpsCpp"/>
+					<Add directory="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp"/>
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Source/Runtime/UMG/Public"/>
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Source/Runtime/UMG/Public/Animation"/>
 					<Add directory="D:/Epic Games/UnrealEngine/Engine/Source/Runtime/UMG/Public/Binding"/>
@@ -1087,255 +1087,255 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/include/c++/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditorFake/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditorFake/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCpp-Mac-Shipping">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp-Mac-Shipping"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp-Mac-Shipping"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCpp-Mac-Debug-clean">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp-Mac-Debug-clean"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp-Mac-Debug-clean"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCpp-Mac-Debug">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp-Mac-Debug"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp-Mac-Debug"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCppEditor-Mac-Shipping">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor-Mac-Shipping"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor-Mac-Shipping"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCppEditor-Mac-Debug">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor-Mac-Debug"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor-Mac-Debug"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCppEditor-Mac-Debug-clean">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor-Mac-Debug-clean"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor-Mac-Debug-clean"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCppEditor-Mac-DebugGame">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor-Mac-DebugGame"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor-Mac-DebugGame"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCpp-Mac-DebugGame-clean">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp-Mac-DebugGame-clean"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCpp-Mac-DebugGame-clean"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCppEditor-Mac-DebugGame-clean">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor-Mac-DebugGame-clean"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor-Mac-DebugGame-clean"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCppEditor">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FpsCppEditor-clean">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor-clean"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 FpsCppEditor-clean"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp\ 4.15/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Config/DefaultEditor.ini">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Config/DefaultEditor.ini">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Config/DefaultEditorPerProjectUserSettings.ini">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Config/DefaultEditorPerProjectUserSettings.ini">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Config/DefaultEditorUserSettings.ini">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Config/DefaultEditorUserSettings.ini">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Config/DefaultEngine.ini">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Config/DefaultEngine.ini">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Config/DefaultGame.ini">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Config/DefaultGame.ini">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Config/DefaultInput.ini">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Config/DefaultInput.ini">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/FpsCpp.uproject">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/FpsCpp.uproject">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/CLionSourceCodeAccess.Build.cs">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/CLionSourceCodeAccess.Build.cs">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.h">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.h">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.h">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.h">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessPrivatePCH.h">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessPrivatePCH.h">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.h">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.h">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp.Target.cs">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp.Target.cs">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/FpsCpp.Build.cs">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/FpsCpp.Build.cs">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/FpsCpp.cpp">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/FpsCpp.cpp">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/FpsCpp.h">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/FpsCpp.h">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/FpsCppCharacter.cpp">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/FpsCppCharacter.cpp">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/FpsCppCharacter.h">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/FpsCppCharacter.h">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/FpsCppGameMode.cpp">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/FpsCppGameMode.cpp">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/FpsCppGameMode.h">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/FpsCppGameMode.h">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/FpsCppHUD.cpp">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/FpsCppHUD.cpp">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/FpsCppHUD.h">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/FpsCppHUD.h">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/FpsCppProjectile.cpp">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/FpsCppProjectile.cpp">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/FpsCppProjectile.h">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/FpsCppProjectile.h">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/InventorySlotWidget.cpp">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/InventorySlotWidget.cpp">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/InventorySlotWidget.h">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/InventorySlotWidget.h">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/InventoryWidget.cpp">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/InventoryWidget.cpp">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/InventoryWidget.h">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/InventoryWidget.h">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/MyPlayerController.cpp">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/MyPlayerController.cpp">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/MyPlayerController.h">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/MyPlayerController.h">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/PickupActor.cpp">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/PickupActor.cpp">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCpp/PickupActor.h">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCpp/PickupActor.h">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="D:/Storage/Unreal/FpsCpp 4.15/Source/FpsCppEditor.Target.cs">
+		<Unit filename="D:/Storage/Unreal/FpsCpp-4.15-Source/Source/FpsCppEditor.Target.cs">
 			<Option target="FpsCppEditorFake"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/CMakeLists.txt">
+		<Unit filename="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/Storage/Unreal/FpsCpp 4.15/Intermediate/ProjectFiles/IncludeDirectories.cmake">
-			<Option virtualFolder="CMake Files\Storage\Unreal\FpsCpp 4.15\Intermediate\ProjectFiles\"/>
+		<Unit filename="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/Storage/Unreal/FpsCpp-4.15-Source/Intermediate/ProjectFiles/IncludeDirectories.cmake">
+			<Option virtualFolder="CMake Files\Storage\Unreal\FpsCpp-4.15-Source\Intermediate\ProjectFiles\"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/Storage/Unreal/FpsCpp 4.15/Intermediate/ProjectFiles/Definitions.cmake">
-			<Option virtualFolder="CMake Files\Storage\Unreal\FpsCpp 4.15\Intermediate\ProjectFiles\"/>
+		<Unit filename="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/Storage/Unreal/FpsCpp-4.15-Source/Intermediate/ProjectFiles/Definitions.cmake">
+			<Option virtualFolder="CMake Files\Storage\Unreal\FpsCpp-4.15-Source\Intermediate\ProjectFiles\"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/Storage/Unreal/FpsCpp 4.15/Intermediate/ProjectFiles/FpsCpp.cmake">
-			<Option virtualFolder="CMake Files\Storage\Unreal\FpsCpp 4.15\Intermediate\ProjectFiles\"/>
+		<Unit filename="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/Storage/Unreal/FpsCpp-4.15-Source/Intermediate/ProjectFiles/FpsCpp.cmake">
+			<Option virtualFolder="CMake Files\Storage\Unreal\FpsCpp-4.15-Source\Intermediate\ProjectFiles\"/>
 		</Unit>
-		<Unit filename="/cygdrive/d/Storage/Unreal/FpsCpp 4.15/Storage/Unreal/FpsCpp 4.15/Intermediate/ProjectFiles/FpsCppEditor.cmake">
-			<Option virtualFolder="CMake Files\Storage\Unreal\FpsCpp 4.15\Intermediate\ProjectFiles\"/>
+		<Unit filename="/cygdrive/d/Storage/Unreal/FpsCpp-4.15-Source/Storage/Unreal/FpsCpp-4.15-Source/Intermediate/ProjectFiles/FpsCppEditor.cmake">
+			<Option virtualFolder="CMake Files\Storage\Unreal\FpsCpp-4.15-Source\Intermediate\ProjectFiles\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
