@@ -12,6 +12,7 @@ APickupActor::APickupActor()
 
 	//Initializing our properties
 	PickupSM = CreateDefaultSubobject<UStaticMeshComponent>(FName("PickupSM"));
+    RootComponent = PickupSM;
 
 	PickupTexture = CreateDefaultSubobject<UTexture2D>(FName("ItemTexture"));
 }

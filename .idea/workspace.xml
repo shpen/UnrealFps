@@ -53,16 +53,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17606876-85d1-4c5c-860a-33f0bf8a2c6d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Blueprints/UW_Inventory.uasset" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Blueprints/UW_Inventory.uasset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Blueprints/UW_InventorySlot.uasset" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Blueprints/UW_InventorySlot.uasset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/FpsCpp/FpsCppCharacter.cpp" afterPath="$PROJECT_DIR$/Source/FpsCpp/FpsCppCharacter.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/FpsCpp/FpsCppCharacter.h" afterPath="$PROJECT_DIR$/Source/FpsCpp/FpsCppCharacter.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/FpsCpp/InventorySlotWidget.cpp" afterPath="$PROJECT_DIR$/Source/FpsCpp/InventorySlotWidget.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/FpsCpp/InventorySlotWidget.h" afterPath="$PROJECT_DIR$/Source/FpsCpp/InventorySlotWidget.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/FpsCpp/MyPlayerController.cpp" afterPath="$PROJECT_DIR$/Source/FpsCpp/MyPlayerController.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/FpsCpp/PickupActor.h" afterPath="$PROJECT_DIR$/Source/FpsCpp/PickupActor.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/FpsCpp/PickupActor.cpp" afterPath="$PROJECT_DIR$/Source/FpsCpp/PickupActor.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InventorySlotWidget.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InventorySlotWidget.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/FpsCpp/InventorySlotWidget.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="368">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#80#99#0" expanded="true" />
               </folding>
@@ -199,11 +191,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PickupActor.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PickupActor.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Source/FpsCpp/PickupActor.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="208">
+              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -277,6 +269,7 @@
         <option value="$PROJECT_DIR$/Source/FpsCpp/FpsCppCharacter.h" />
         <option value="$PROJECT_DIR$/Source/FpsCpp/FpsCppCharacter.cpp" />
         <option value="$PROJECT_DIR$/Source/FpsCpp/InventorySlotWidget.cpp" />
+        <option value="$PROJECT_DIR$/Source/FpsCpp/PickupActor.cpp" />
       </list>
     </option>
   </component>
@@ -741,12 +734,12 @@
       <workItem from="1488353829869" duration="892000" />
       <workItem from="1488355378441" duration="3243000" />
       <workItem from="1488398625749" duration="3422000" />
-      <workItem from="1488434685444" duration="7467000" />
+      <workItem from="1488434685444" duration="8093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19648000" />
+    <option name="totallyTimeSpent" value="20274000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -763,7 +756,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18651211" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2708134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2708134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291866" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1034,14 +1027,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/FpsCpp/PickupActor.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Epic Games/UnrealEngine/Engine/Source/Runtime/Core/Public/Misc/AssertionMacros.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -1178,11 +1163,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/FpsCpp/InventorySlotWidget.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="368">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#80#99#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/FpsCpp/PickupActor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
