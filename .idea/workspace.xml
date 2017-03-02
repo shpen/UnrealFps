@@ -2,7 +2,9 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
     <generated>
+      <config projectName="UE4" targetName="FpsCppEditor-Mac-Test" />
       <config projectName="UE4" targetName="FakeTarget" />
+      <config projectName="UE4" targetName="FpsCpp-Mac-Test-clean" />
       <config projectName="UE4" targetName="UE4Game" />
       <config projectName="UE4" targetName="FpsCppEditor-Win64-Shipping" />
       <config projectName="UE4" targetName="UE4Editor" />
@@ -11,28 +13,34 @@
       <config projectName="UE4" targetName="UE4Game-Win64-Shipping" />
       <config projectName="UE4" targetName="UE4Editor-clean" />
       <config projectName="UE4" targetName="UE4Editor-Win64-DebugGame" />
+      <config projectName="UE4" targetName="FpsCppEditor-Mac-Debug" />
       <config projectName="UE4" targetName="FpsCppEditor-Mac-Shipping-clean" />
-      <config projectName="UE4" targetName="FpsCpp-Mac-Shipping-clean" />
+      <config projectName="UE4" targetName="FpsCppEditor-Mac-Test-clean" />
       <config projectName="UE4" targetName="FpsCpp-Win64-Shipping" />
-      <config projectName="UE4" targetName="FpsCppEditor" />
+      <config projectName="UE4" targetName="FpsCpp-Mac-Shipping-clean" />
       <config projectName="UE4" targetName="UE4Game-Mac-Shipping" />
+      <config projectName="UE4" targetName="FpsCppEditor" />
       <config projectName="UE4" targetName="UE4Editor-Mac-Shipping-clean" />
       <config projectName="UE4" targetName="FpsCppEditor-clean" />
       <config projectName="UE4" targetName="FpsCpp-Win64-DebugGame" />
       <config projectName="UE4" targetName="UE4Editor-Mac-DebugGame-clean" />
+      <config projectName="UE4" targetName="FpsCppEditor-Mac-Debug-clean" />
       <config projectName="UE4" targetName="FpsCppEditor-Mac-Shipping" />
       <config projectName="UE4" targetName="FpsCpp-Mac-Shipping" />
       <config projectName="UE4" targetName="FpsCpp-clean" />
-      <config projectName="UE4" targetName="UE4Editor-Mac-DebugGame" />
       <config projectName="UE4" targetName="UE4Editor-Win64-Shipping" />
+      <config projectName="UE4" targetName="UE4Editor-Mac-DebugGame" />
+      <config projectName="UE4" targetName="FpsCpp-Mac-Debug-clean" />
+      <config projectName="UE4" targetName="FpsCpp-Mac-Debug" />
       <config projectName="UE4" targetName="UE4Game-Mac-DebugGame-clean" />
-      <config projectName="UE4" targetName="UE4Game-Mac-Shipping-clean" />
-      <config projectName="UE4" targetName="FpsCppEditor-Mac-DebugGame" />
       <config projectName="UE4" targetName="FpsCppEditor-Win64-DebugGame" />
+      <config projectName="UE4" targetName="FpsCppEditor-Mac-DebugGame" />
+      <config projectName="UE4" targetName="UE4Game-Mac-Shipping-clean" />
+      <config projectName="UE4" targetName="FpsCpp-Mac-Test" />
       <config projectName="UE4" targetName="UE4Game-Mac-DebugGame" />
+      <config projectName="UE4" targetName="FpsCpp-Mac-DebugGame" />
       <config projectName="UE4" targetName="FpsCpp-Mac-DebugGame-clean" />
       <config projectName="UE4" targetName="UE4Editor-Mac-Shipping" />
-      <config projectName="UE4" targetName="FpsCpp-Mac-DebugGame" />
       <config projectName="UE4" targetName="FpsCppEditorFake" />
       <config projectName="UE4" targetName="FpsCppEditor-Mac-DebugGame-clean" />
       <config projectName="UE4" targetName="UE4Game-clean" />
@@ -45,10 +53,135 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17606876-85d1-4c5c-860a-33f0bf8a2c6d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Blueprints/BP_FirstPersonCharacter.uasset" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Blueprints/BP_FirstPersonCharacter.uasset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" afterPath="$PROJECT_DIR$/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Config/DefaultEditorPerProjectUserSettings.ini" afterPath="$PROJECT_DIR$/Config/DefaultEditorPerProjectUserSettings.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/FpsCpp/FpsCppCharacter.cpp" afterPath="$PROJECT_DIR$/Source/FpsCpp/FpsCppCharacter.cpp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FakeTarget.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FakeTarget.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FakeTarget.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FakeTarget.dir/depend.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FakeTarget.dir/flags.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FakeTarget.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp-Win64-DebugGame.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp-Win64-DebugGame.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp-Win64-DebugGame.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp-Win64-DebugGame.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp-Win64-Shipping.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp-Win64-Shipping.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp-Win64-Shipping.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp-Win64-Shipping.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor-Win64-DebugGame.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor-Win64-DebugGame.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor-Win64-DebugGame.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor-Win64-DebugGame.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor-Win64-Shipping.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor-Win64-Shipping.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor-Win64-Shipping.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor-Win64-Shipping.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor.dir/depend.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditorFake.dir/CXX.includecache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditorFake.dir/depend.internal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Mac-DebugGame-clean.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Mac-DebugGame-clean.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Mac-DebugGame-clean.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Mac-DebugGame-clean.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Mac-DebugGame.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Mac-DebugGame.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Mac-DebugGame.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Mac-DebugGame.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Mac-Shipping-clean.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Mac-Shipping-clean.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Mac-Shipping-clean.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Mac-Shipping-clean.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Mac-Shipping.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Mac-Shipping.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Mac-Shipping.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Mac-Shipping.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Win64-DebugGame.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Win64-DebugGame.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Win64-DebugGame.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Win64-DebugGame.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Win64-Shipping.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Win64-Shipping.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Win64-Shipping.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-Win64-Shipping.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-clean.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-clean.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-clean.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor-clean.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Editor.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Mac-DebugGame-clean.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Mac-DebugGame-clean.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Mac-DebugGame-clean.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Mac-DebugGame-clean.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Mac-DebugGame.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Mac-DebugGame.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Mac-DebugGame.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Mac-DebugGame.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Mac-Shipping-clean.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Mac-Shipping-clean.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Mac-Shipping-clean.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Mac-Shipping-clean.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Mac-Shipping.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Mac-Shipping.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Mac-Shipping.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Mac-Shipping.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Win64-DebugGame.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Win64-DebugGame.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Win64-DebugGame.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Win64-DebugGame.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Win64-Shipping.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Win64-Shipping.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Win64-Shipping.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-Win64-Shipping.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-clean.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-clean.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-clean.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game-clean.dir/progress.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game.dir/DependInfo.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game.dir/build.make" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game.dir/cmake_clean.cmake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/UE4Game.dir/progress.make" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Content/StarterContent/Architecture/Floor_400x400.uasset" afterPath="$PROJECT_DIR$/Content/StarterContent/Architecture/Floor_400x400.uasset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeDetermineCompilerABI_C.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeDetermineCompilerABI_C.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeDetermineCompilerABI_CXX.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeDetermineCompilerABI_CXX.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FpsCpp.uproject" afterPath="$PROJECT_DIR$/FpsCpp.uproject" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FpsCpp.workspace" afterPath="$PROJECT_DIR$/FpsCpp.workspace" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FpsCppCodeCompletionFolders.txt" afterPath="$PROJECT_DIR$/FpsCppCodeCompletionFolders.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FpsCppCodeLitePreProcessor.txt" afterPath="$PROJECT_DIR$/FpsCppCodeLitePreProcessor.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp-Mac-DebugGame-clean.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp-Mac-DebugGame-clean.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp-Mac-DebugGame.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp-Mac-DebugGame.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp-Mac-Shipping-clean.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp-Mac-Shipping-clean.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp-Mac-Shipping.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp-Mac-Shipping.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp-clean.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp-clean.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCpp.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor-Mac-DebugGame-clean.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor-Mac-DebugGame-clean.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor-Mac-DebugGame.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor-Mac-DebugGame.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor-Mac-Shipping-clean.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor-Mac-Shipping-clean.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor-Mac-Shipping.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor-Mac-Shipping.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor-clean.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor-clean.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditor.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditorFake.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditorFake.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditorFake.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditorFake.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditorFake.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditorFake.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditorFake.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditorFake.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditorFake.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditorFake.dir/flags.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditorFake.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FpsCppEditorFake.dir/link.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/UE4.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/UE4.cbp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,8 +203,8 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="720">
+              <caret line="45" column="65" lean-forward="true" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -80,8 +213,8 @@
       <file leaf-file-name="InventorySlotWidget.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/FpsCpp/InventorySlotWidget.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="288">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#80#99#0" expanded="true" />
               </folding>
@@ -89,31 +222,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InventorySlotWidget.generated.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FpsCpp/InventorySlotWidget.generated.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InventorySlotWidget.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/FpsCpp/InventorySlotWidget.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            <state relative-caret-position="224">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PickupActor.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PickupActor.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Source/FpsCpp/PickupActor.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PickupActor.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/FpsCpp/PickupActor.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+            <state relative-caret-position="208">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -141,6 +274,7 @@
         <option value="$PROJECT_DIR$/Source/FpsCpp/FpsCppCharacter.cpp" />
         <option value="$PROJECT_DIR$/Source/FpsCpp/InventorySlotWidget.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Source/FpsCpp/InventorySlotWidget.cpp" />
       </list>
     </option>
   </component>
@@ -537,7 +671,39 @@
       <envs />
       <method />
     </configuration>
-    <list size="35">
+    <configuration default="false" name="FpsCpp-Mac-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="FpsCpp-Mac-Debug" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FpsCpp-Mac-Debug-clean" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="FpsCpp-Mac-Debug-clean" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FpsCpp-Mac-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="FpsCpp-Mac-Test" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FpsCpp-Mac-Test-clean" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="FpsCpp-Mac-Test-clean" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FpsCppEditor-Mac-Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="FpsCppEditor-Mac-Debug" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FpsCppEditor-Mac-Debug-clean" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="FpsCppEditor-Mac-Debug-clean" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FpsCppEditor-Mac-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="FpsCppEditor-Mac-Test" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FpsCppEditor-Mac-Test-clean" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UE4" TARGET_NAME="FpsCppEditor-Mac-Test-clean" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <list size="43">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.FpsCpp" />
       <item index="2" class="java.lang.String" itemvalue="Application.FpsCpp-clean" />
@@ -573,6 +739,14 @@
       <item index="32" class="java.lang.String" itemvalue="Application.UE4Editor-Win64-Shipping" />
       <item index="33" class="java.lang.String" itemvalue="Application.UE4Game-Win64-DebugGame" />
       <item index="34" class="java.lang.String" itemvalue="Application.UE4Game-Win64-Shipping" />
+      <item index="35" class="java.lang.String" itemvalue="Application.FpsCpp-Mac-Debug" />
+      <item index="36" class="java.lang.String" itemvalue="Application.FpsCpp-Mac-Debug-clean" />
+      <item index="37" class="java.lang.String" itemvalue="Application.FpsCpp-Mac-Test" />
+      <item index="38" class="java.lang.String" itemvalue="Application.FpsCpp-Mac-Test-clean" />
+      <item index="39" class="java.lang.String" itemvalue="Application.FpsCppEditor-Mac-Debug" />
+      <item index="40" class="java.lang.String" itemvalue="Application.FpsCppEditor-Mac-Debug-clean" />
+      <item index="41" class="java.lang.String" itemvalue="Application.FpsCppEditor-Mac-Test" />
+      <item index="42" class="java.lang.String" itemvalue="Application.FpsCppEditor-Mac-Test-clean" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -590,12 +764,13 @@
       <workItem from="1488351474474" duration="1498000" />
       <workItem from="1488353257006" duration="476000" />
       <workItem from="1488353829869" duration="892000" />
-      <workItem from="1488355378441" duration="1194000" />
+      <workItem from="1488355378441" duration="3243000" />
+      <workItem from="1488398625749" duration="2519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6710000" />
+    <option name="totallyTimeSpent" value="11278000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -612,22 +787,22 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291866" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291866" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291866" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291866" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291866" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291866" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -641,6 +816,48 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/FpsCpp/InventorySlotWidget.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#80#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FpsCpp/InventorySlotWidget.generated.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/FpsCpp/InventorySlotWidget.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/FpsCpp/PickupActor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Source/FpsCpp/InventorySlotWidget.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -791,20 +1008,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Epic Games/UE_4.15/Engine/Source/Runtime/Engine/Classes/GameFramework/PlayerController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Epic Games/UE_4.15/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectMacros.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="622" column="8" lean-forward="false" selection-start-line="622" selection-start-column="8" selection-end-line="622" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files/Epic Games/UE_4.15/Engine/Source/Runtime/Engine/Classes/GameFramework/PlayerController.h" />
+    <entry file="file://C:/Program Files/Epic Games/UE_4.15/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectMacros.h" />
     <entry file="file://$PROJECT_DIR$/Source/FpsCpp/MyPlayerController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -855,7 +1060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,30 +1067,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FpsCpp/InventorySlotWidget.generated.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="720">
+          <caret line="45" column="65" lean-forward="true" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/FpsCpp/InventorySlotWidget.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="288">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#80#99#0" expanded="true" />
           </folding>
@@ -895,16 +1090,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/FpsCpp/InventorySlotWidget.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        <state relative-caret-position="224">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/FpsCpp/InventorySlotWidget.generated.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/FpsCpp/PickupActor.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+        <state relative-caret-position="208">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Epic Games/UnrealEngine/Engine/Source/Runtime/Engine/Classes/Engine/EngineBaseTypes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="204" column="10" lean-forward="false" selection-start-line="204" selection-start-column="10" selection-end-line="204" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Epic Games/UnrealEngine/Engine/Source/Runtime/Engine/Classes/Components/PrimitiveComponent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="1094" column="9" lean-forward="false" selection-start-line="1094" selection-start-column="9" selection-end-line="1094" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/FpsCpp/PickupActor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
           <folding />
         </state>
       </provider>

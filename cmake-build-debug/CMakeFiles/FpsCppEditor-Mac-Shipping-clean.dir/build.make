@@ -43,10 +43,10 @@ RM = /cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/d/Storage/Unreal/FpsCpp
+CMAKE_SOURCE_DIR = "/cygdrive/d/Storage/Unreal/FpsCpp 4.15"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug
+CMAKE_BINARY_DIR = "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"
 
 # Utility rule file for FpsCppEditor-Mac-Shipping-clean.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug
 include CMakeFiles/FpsCppEditor-Mac-Shipping-clean.dir/progress.make
 
 CMakeFiles/FpsCppEditor-Mac-Shipping-clean:
-	cd C:/Program\ Files/Epic\ Games/UE_4.15.old/Engine/Binaries/DotNET && UnrealBuildTool.exe FpsCppEditor Win64 Shipping -project="D:/Storage/Unreal/FpsCpp/FpsCpp.uproject" -clean
+	cd D:/Epic\ Games/UnrealEngine/Engine/Binaries/DotNET && UnrealBuildTool.exe FpsCppEditor Win64 Shipping -project="D:/Storage/Unreal/FpsCpp\ 4.15/FpsCpp.uproject" -clean
 
 FpsCppEditor-Mac-Shipping-clean: CMakeFiles/FpsCppEditor-Mac-Shipping-clean
 FpsCppEditor-Mac-Shipping-clean: CMakeFiles/FpsCppEditor-Mac-Shipping-clean.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/FpsCppEditor-Mac-Shipping-clean.dir/clean:
 .PHONY : CMakeFiles/FpsCppEditor-Mac-Shipping-clean.dir/clean
 
 CMakeFiles/FpsCppEditor-Mac-Shipping-clean.dir/depend:
-	cd /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/d/Storage/Unreal/FpsCpp /cygdrive/d/Storage/Unreal/FpsCpp /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/FpsCppEditor-Mac-Shipping-clean.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/cygdrive/d/Storage/Unreal/FpsCpp 4.15" "/cygdrive/d/Storage/Unreal/FpsCpp 4.15" "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug" "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug" "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/FpsCppEditor-Mac-Shipping-clean.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/FpsCppEditor-Mac-Shipping-clean.dir/depend
 

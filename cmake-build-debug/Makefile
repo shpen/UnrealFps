@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/d/Storage/Unreal/FpsCpp
+CMAKE_SOURCE_DIR = "/cygdrive/d/Storage/Unreal/FpsCpp 4.15"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug
+CMAKE_BINARY_DIR = "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles" "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,56 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named FpsCppEditor-Mac-Shipping-clean
+# Target rules for targets named FpsCppEditor-Mac-Test
 
 # Build rule for target.
-FpsCppEditor-Mac-Shipping-clean: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 FpsCppEditor-Mac-Shipping-clean
-.PHONY : FpsCppEditor-Mac-Shipping-clean
+FpsCppEditor-Mac-Test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FpsCppEditor-Mac-Test
+.PHONY : FpsCppEditor-Mac-Test
 
 # fast build rule for target.
-FpsCppEditor-Mac-Shipping-clean/fast:
-	$(MAKE) -f CMakeFiles/FpsCppEditor-Mac-Shipping-clean.dir/build.make CMakeFiles/FpsCppEditor-Mac-Shipping-clean.dir/build
-.PHONY : FpsCppEditor-Mac-Shipping-clean/fast
+FpsCppEditor-Mac-Test/fast:
+	$(MAKE) -f CMakeFiles/FpsCppEditor-Mac-Test.dir/build.make CMakeFiles/FpsCppEditor-Mac-Test.dir/build
+.PHONY : FpsCppEditor-Mac-Test/fast
 
 #=============================================================================
-# Target rules for targets named UE4Game-clean
+# Target rules for targets named FpsCpp
 
 # Build rule for target.
-UE4Game-clean: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UE4Game-clean
-.PHONY : UE4Game-clean
+FpsCpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FpsCpp
+.PHONY : FpsCpp
 
 # fast build rule for target.
-UE4Game-clean/fast:
-	$(MAKE) -f CMakeFiles/UE4Game-clean.dir/build.make CMakeFiles/UE4Game-clean.dir/build
-.PHONY : UE4Game-clean/fast
-
-#=============================================================================
-# Target rules for targets named FpsCppEditor-Mac-DebugGame
-
-# Build rule for target.
-FpsCppEditor-Mac-DebugGame: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 FpsCppEditor-Mac-DebugGame
-.PHONY : FpsCppEditor-Mac-DebugGame
-
-# fast build rule for target.
-FpsCppEditor-Mac-DebugGame/fast:
-	$(MAKE) -f CMakeFiles/FpsCppEditor-Mac-DebugGame.dir/build.make CMakeFiles/FpsCppEditor-Mac-DebugGame.dir/build
-.PHONY : FpsCppEditor-Mac-DebugGame/fast
-
-#=============================================================================
-# Target rules for targets named UE4Game-Mac-DebugGame-clean
-
-# Build rule for target.
-UE4Game-Mac-DebugGame-clean: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UE4Game-Mac-DebugGame-clean
-.PHONY : UE4Game-Mac-DebugGame-clean
-
-# fast build rule for target.
-UE4Game-Mac-DebugGame-clean/fast:
-	$(MAKE) -f CMakeFiles/UE4Game-Mac-DebugGame-clean.dir/build.make CMakeFiles/UE4Game-Mac-DebugGame-clean.dir/build
-.PHONY : UE4Game-Mac-DebugGame-clean/fast
+FpsCpp/fast:
+	$(MAKE) -f CMakeFiles/FpsCpp.dir/build.make CMakeFiles/FpsCpp.dir/build
+.PHONY : FpsCpp/fast
 
 #=============================================================================
 # Target rules for targets named FpsCpp-Mac-Shipping-clean
@@ -176,173 +150,17 @@ FpsCpp-Mac-Shipping-clean/fast:
 .PHONY : FpsCpp-Mac-Shipping-clean/fast
 
 #=============================================================================
-# Target rules for targets named FpsCpp-Mac-Shipping
+# Target rules for targets named FpsCpp-Mac-Test-clean
 
 # Build rule for target.
-FpsCpp-Mac-Shipping: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 FpsCpp-Mac-Shipping
-.PHONY : FpsCpp-Mac-Shipping
+FpsCpp-Mac-Test-clean: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FpsCpp-Mac-Test-clean
+.PHONY : FpsCpp-Mac-Test-clean
 
 # fast build rule for target.
-FpsCpp-Mac-Shipping/fast:
-	$(MAKE) -f CMakeFiles/FpsCpp-Mac-Shipping.dir/build.make CMakeFiles/FpsCpp-Mac-Shipping.dir/build
-.PHONY : FpsCpp-Mac-Shipping/fast
-
-#=============================================================================
-# Target rules for targets named UE4Editor-Mac-Shipping-clean
-
-# Build rule for target.
-UE4Editor-Mac-Shipping-clean: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UE4Editor-Mac-Shipping-clean
-.PHONY : UE4Editor-Mac-Shipping-clean
-
-# fast build rule for target.
-UE4Editor-Mac-Shipping-clean/fast:
-	$(MAKE) -f CMakeFiles/UE4Editor-Mac-Shipping-clean.dir/build.make CMakeFiles/UE4Editor-Mac-Shipping-clean.dir/build
-.PHONY : UE4Editor-Mac-Shipping-clean/fast
-
-#=============================================================================
-# Target rules for targets named UE4Editor-Mac-DebugGame-clean
-
-# Build rule for target.
-UE4Editor-Mac-DebugGame-clean: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UE4Editor-Mac-DebugGame-clean
-.PHONY : UE4Editor-Mac-DebugGame-clean
-
-# fast build rule for target.
-UE4Editor-Mac-DebugGame-clean/fast:
-	$(MAKE) -f CMakeFiles/UE4Editor-Mac-DebugGame-clean.dir/build.make CMakeFiles/UE4Editor-Mac-DebugGame-clean.dir/build
-.PHONY : UE4Editor-Mac-DebugGame-clean/fast
-
-#=============================================================================
-# Target rules for targets named UE4Game
-
-# Build rule for target.
-UE4Game: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UE4Game
-.PHONY : UE4Game
-
-# fast build rule for target.
-UE4Game/fast:
-	$(MAKE) -f CMakeFiles/UE4Game.dir/build.make CMakeFiles/UE4Game.dir/build
-.PHONY : UE4Game/fast
-
-#=============================================================================
-# Target rules for targets named UE4Editor-Mac-Shipping
-
-# Build rule for target.
-UE4Editor-Mac-Shipping: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UE4Editor-Mac-Shipping
-.PHONY : UE4Editor-Mac-Shipping
-
-# fast build rule for target.
-UE4Editor-Mac-Shipping/fast:
-	$(MAKE) -f CMakeFiles/UE4Editor-Mac-Shipping.dir/build.make CMakeFiles/UE4Editor-Mac-Shipping.dir/build
-.PHONY : UE4Editor-Mac-Shipping/fast
-
-#=============================================================================
-# Target rules for targets named FpsCppEditorFake
-
-# Build rule for target.
-FpsCppEditorFake: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 FpsCppEditorFake
-.PHONY : FpsCppEditorFake
-
-# fast build rule for target.
-FpsCppEditorFake/fast:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/build
-.PHONY : FpsCppEditorFake/fast
-
-#=============================================================================
-# Target rules for targets named UE4Editor
-
-# Build rule for target.
-UE4Editor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UE4Editor
-.PHONY : UE4Editor
-
-# fast build rule for target.
-UE4Editor/fast:
-	$(MAKE) -f CMakeFiles/UE4Editor.dir/build.make CMakeFiles/UE4Editor.dir/build
-.PHONY : UE4Editor/fast
-
-#=============================================================================
-# Target rules for targets named FpsCppEditor-Mac-Shipping
-
-# Build rule for target.
-FpsCppEditor-Mac-Shipping: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 FpsCppEditor-Mac-Shipping
-.PHONY : FpsCppEditor-Mac-Shipping
-
-# fast build rule for target.
-FpsCppEditor-Mac-Shipping/fast:
-	$(MAKE) -f CMakeFiles/FpsCppEditor-Mac-Shipping.dir/build.make CMakeFiles/FpsCppEditor-Mac-Shipping.dir/build
-.PHONY : FpsCppEditor-Mac-Shipping/fast
-
-#=============================================================================
-# Target rules for targets named UE4Editor-Mac-DebugGame
-
-# Build rule for target.
-UE4Editor-Mac-DebugGame: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UE4Editor-Mac-DebugGame
-.PHONY : UE4Editor-Mac-DebugGame
-
-# fast build rule for target.
-UE4Editor-Mac-DebugGame/fast:
-	$(MAKE) -f CMakeFiles/UE4Editor-Mac-DebugGame.dir/build.make CMakeFiles/UE4Editor-Mac-DebugGame.dir/build
-.PHONY : UE4Editor-Mac-DebugGame/fast
-
-#=============================================================================
-# Target rules for targets named UE4Game-Mac-Shipping
-
-# Build rule for target.
-UE4Game-Mac-Shipping: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UE4Game-Mac-Shipping
-.PHONY : UE4Game-Mac-Shipping
-
-# fast build rule for target.
-UE4Game-Mac-Shipping/fast:
-	$(MAKE) -f CMakeFiles/UE4Game-Mac-Shipping.dir/build.make CMakeFiles/UE4Game-Mac-Shipping.dir/build
-.PHONY : UE4Game-Mac-Shipping/fast
-
-#=============================================================================
-# Target rules for targets named FpsCppEditor
-
-# Build rule for target.
-FpsCppEditor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 FpsCppEditor
-.PHONY : FpsCppEditor
-
-# fast build rule for target.
-FpsCppEditor/fast:
-	$(MAKE) -f CMakeFiles/FpsCppEditor.dir/build.make CMakeFiles/FpsCppEditor.dir/build
-.PHONY : FpsCppEditor/fast
-
-#=============================================================================
-# Target rules for targets named UE4Editor-clean
-
-# Build rule for target.
-UE4Editor-clean: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UE4Editor-clean
-.PHONY : UE4Editor-clean
-
-# fast build rule for target.
-UE4Editor-clean/fast:
-	$(MAKE) -f CMakeFiles/UE4Editor-clean.dir/build.make CMakeFiles/UE4Editor-clean.dir/build
-.PHONY : UE4Editor-clean/fast
-
-#=============================================================================
-# Target rules for targets named UE4Game-Mac-Shipping-clean
-
-# Build rule for target.
-UE4Game-Mac-Shipping-clean: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UE4Game-Mac-Shipping-clean
-.PHONY : UE4Game-Mac-Shipping-clean
-
-# fast build rule for target.
-UE4Game-Mac-Shipping-clean/fast:
-	$(MAKE) -f CMakeFiles/UE4Game-Mac-Shipping-clean.dir/build.make CMakeFiles/UE4Game-Mac-Shipping-clean.dir/build
-.PHONY : UE4Game-Mac-Shipping-clean/fast
+FpsCpp-Mac-Test-clean/fast:
+	$(MAKE) -f CMakeFiles/FpsCpp-Mac-Test-clean.dir/build.make CMakeFiles/FpsCpp-Mac-Test-clean.dir/build
+.PHONY : FpsCpp-Mac-Test-clean/fast
 
 #=============================================================================
 # Target rules for targets named FpsCpp-clean
@@ -358,19 +176,6 @@ FpsCpp-clean/fast:
 .PHONY : FpsCpp-clean/fast
 
 #=============================================================================
-# Target rules for targets named UE4Game-Mac-DebugGame
-
-# Build rule for target.
-UE4Game-Mac-DebugGame: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UE4Game-Mac-DebugGame
-.PHONY : UE4Game-Mac-DebugGame
-
-# fast build rule for target.
-UE4Game-Mac-DebugGame/fast:
-	$(MAKE) -f CMakeFiles/UE4Game-Mac-DebugGame.dir/build.make CMakeFiles/UE4Game-Mac-DebugGame.dir/build
-.PHONY : UE4Game-Mac-DebugGame/fast
-
-#=============================================================================
 # Target rules for targets named FpsCpp-Mac-DebugGame
 
 # Build rule for target.
@@ -384,17 +189,147 @@ FpsCpp-Mac-DebugGame/fast:
 .PHONY : FpsCpp-Mac-DebugGame/fast
 
 #=============================================================================
-# Target rules for targets named FpsCpp
+# Target rules for targets named FpsCppEditor-Mac-Shipping-clean
 
 # Build rule for target.
-FpsCpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 FpsCpp
-.PHONY : FpsCpp
+FpsCppEditor-Mac-Shipping-clean: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FpsCppEditor-Mac-Shipping-clean
+.PHONY : FpsCppEditor-Mac-Shipping-clean
 
 # fast build rule for target.
-FpsCpp/fast:
-	$(MAKE) -f CMakeFiles/FpsCpp.dir/build.make CMakeFiles/FpsCpp.dir/build
-.PHONY : FpsCpp/fast
+FpsCppEditor-Mac-Shipping-clean/fast:
+	$(MAKE) -f CMakeFiles/FpsCppEditor-Mac-Shipping-clean.dir/build.make CMakeFiles/FpsCppEditor-Mac-Shipping-clean.dir/build
+.PHONY : FpsCppEditor-Mac-Shipping-clean/fast
+
+#=============================================================================
+# Target rules for targets named FpsCpp-Mac-Test
+
+# Build rule for target.
+FpsCpp-Mac-Test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FpsCpp-Mac-Test
+.PHONY : FpsCpp-Mac-Test
+
+# fast build rule for target.
+FpsCpp-Mac-Test/fast:
+	$(MAKE) -f CMakeFiles/FpsCpp-Mac-Test.dir/build.make CMakeFiles/FpsCpp-Mac-Test.dir/build
+.PHONY : FpsCpp-Mac-Test/fast
+
+#=============================================================================
+# Target rules for targets named FpsCppEditor-Mac-Test-clean
+
+# Build rule for target.
+FpsCppEditor-Mac-Test-clean: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FpsCppEditor-Mac-Test-clean
+.PHONY : FpsCppEditor-Mac-Test-clean
+
+# fast build rule for target.
+FpsCppEditor-Mac-Test-clean/fast:
+	$(MAKE) -f CMakeFiles/FpsCppEditor-Mac-Test-clean.dir/build.make CMakeFiles/FpsCppEditor-Mac-Test-clean.dir/build
+.PHONY : FpsCppEditor-Mac-Test-clean/fast
+
+#=============================================================================
+# Target rules for targets named FpsCppEditorFake
+
+# Build rule for target.
+FpsCppEditorFake: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FpsCppEditorFake
+.PHONY : FpsCppEditorFake
+
+# fast build rule for target.
+FpsCppEditorFake/fast:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/build
+.PHONY : FpsCppEditorFake/fast
+
+#=============================================================================
+# Target rules for targets named FpsCpp-Mac-Shipping
+
+# Build rule for target.
+FpsCpp-Mac-Shipping: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FpsCpp-Mac-Shipping
+.PHONY : FpsCpp-Mac-Shipping
+
+# fast build rule for target.
+FpsCpp-Mac-Shipping/fast:
+	$(MAKE) -f CMakeFiles/FpsCpp-Mac-Shipping.dir/build.make CMakeFiles/FpsCpp-Mac-Shipping.dir/build
+.PHONY : FpsCpp-Mac-Shipping/fast
+
+#=============================================================================
+# Target rules for targets named FpsCpp-Mac-Debug-clean
+
+# Build rule for target.
+FpsCpp-Mac-Debug-clean: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FpsCpp-Mac-Debug-clean
+.PHONY : FpsCpp-Mac-Debug-clean
+
+# fast build rule for target.
+FpsCpp-Mac-Debug-clean/fast:
+	$(MAKE) -f CMakeFiles/FpsCpp-Mac-Debug-clean.dir/build.make CMakeFiles/FpsCpp-Mac-Debug-clean.dir/build
+.PHONY : FpsCpp-Mac-Debug-clean/fast
+
+#=============================================================================
+# Target rules for targets named FpsCpp-Mac-Debug
+
+# Build rule for target.
+FpsCpp-Mac-Debug: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FpsCpp-Mac-Debug
+.PHONY : FpsCpp-Mac-Debug
+
+# fast build rule for target.
+FpsCpp-Mac-Debug/fast:
+	$(MAKE) -f CMakeFiles/FpsCpp-Mac-Debug.dir/build.make CMakeFiles/FpsCpp-Mac-Debug.dir/build
+.PHONY : FpsCpp-Mac-Debug/fast
+
+#=============================================================================
+# Target rules for targets named FpsCppEditor-Mac-Shipping
+
+# Build rule for target.
+FpsCppEditor-Mac-Shipping: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FpsCppEditor-Mac-Shipping
+.PHONY : FpsCppEditor-Mac-Shipping
+
+# fast build rule for target.
+FpsCppEditor-Mac-Shipping/fast:
+	$(MAKE) -f CMakeFiles/FpsCppEditor-Mac-Shipping.dir/build.make CMakeFiles/FpsCppEditor-Mac-Shipping.dir/build
+.PHONY : FpsCppEditor-Mac-Shipping/fast
+
+#=============================================================================
+# Target rules for targets named FpsCppEditor-Mac-Debug
+
+# Build rule for target.
+FpsCppEditor-Mac-Debug: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FpsCppEditor-Mac-Debug
+.PHONY : FpsCppEditor-Mac-Debug
+
+# fast build rule for target.
+FpsCppEditor-Mac-Debug/fast:
+	$(MAKE) -f CMakeFiles/FpsCppEditor-Mac-Debug.dir/build.make CMakeFiles/FpsCppEditor-Mac-Debug.dir/build
+.PHONY : FpsCppEditor-Mac-Debug/fast
+
+#=============================================================================
+# Target rules for targets named FpsCppEditor-Mac-Debug-clean
+
+# Build rule for target.
+FpsCppEditor-Mac-Debug-clean: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FpsCppEditor-Mac-Debug-clean
+.PHONY : FpsCppEditor-Mac-Debug-clean
+
+# fast build rule for target.
+FpsCppEditor-Mac-Debug-clean/fast:
+	$(MAKE) -f CMakeFiles/FpsCppEditor-Mac-Debug-clean.dir/build.make CMakeFiles/FpsCppEditor-Mac-Debug-clean.dir/build
+.PHONY : FpsCppEditor-Mac-Debug-clean/fast
+
+#=============================================================================
+# Target rules for targets named FpsCppEditor-Mac-DebugGame
+
+# Build rule for target.
+FpsCppEditor-Mac-DebugGame: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FpsCppEditor-Mac-DebugGame
+.PHONY : FpsCppEditor-Mac-DebugGame
+
+# fast build rule for target.
+FpsCppEditor-Mac-DebugGame/fast:
+	$(MAKE) -f CMakeFiles/FpsCppEditor-Mac-DebugGame.dir/build.make CMakeFiles/FpsCppEditor-Mac-DebugGame.dir/build
+.PHONY : FpsCppEditor-Mac-DebugGame/fast
 
 #=============================================================================
 # Target rules for targets named FpsCpp-Mac-DebugGame-clean
@@ -423,6 +358,19 @@ FpsCppEditor-Mac-DebugGame-clean/fast:
 .PHONY : FpsCppEditor-Mac-DebugGame-clean/fast
 
 #=============================================================================
+# Target rules for targets named FpsCppEditor
+
+# Build rule for target.
+FpsCppEditor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FpsCppEditor
+.PHONY : FpsCppEditor
+
+# fast build rule for target.
+FpsCppEditor/fast:
+	$(MAKE) -f CMakeFiles/FpsCppEditor.dir/build.make CMakeFiles/FpsCppEditor.dir/build
+.PHONY : FpsCppEditor/fast
+
+#=============================================================================
 # Target rules for targets named FpsCppEditor-clean
 
 # Build rule for target.
@@ -435,329 +383,329 @@ FpsCppEditor-clean/fast:
 	$(MAKE) -f CMakeFiles/FpsCppEditor-clean.dir/build.make CMakeFiles/FpsCppEditor-clean.dir/build
 .PHONY : FpsCppEditor-clean/fast
 
-D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.o: D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.o: D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.o
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.o
-
-# target to build an object file
-D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.o:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.o
-.PHONY : D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.o
-
-D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.i: D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.i
-
-.PHONY : D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.i
-
-# target to preprocess a source file
-D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.i:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.i
-.PHONY : D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.i
-
-D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.s: D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.s
-
-.PHONY : D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.s
-
-# target to generate assembly for a file
-D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.s:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.s
-.PHONY : D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.s
-
-D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.o: D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.o
-
-.PHONY : D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.o
 
 # target to build an object file
-D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.o:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.o
-.PHONY : D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.o:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.o
 
-D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.i: D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.i: D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.i
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.i
 
 # target to preprocess a source file
-D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.i:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.i
-.PHONY : D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.i:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.i
 
-D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.s: D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.s: D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.s
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.s
 
 # target to generate assembly for a file
-D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.s:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.s
-.PHONY : D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.s:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.cpp.s
 
-D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.o: D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.o: D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.o
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.o
 
 # target to build an object file
-D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.o:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.o
-.PHONY : D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.o:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.o
 
-D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.i: D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.i: D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.i
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.i
 
 # target to preprocess a source file
-D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.i:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.i
-.PHONY : D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.i:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.i
 
-D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.s: D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.s: D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.s
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.s
 
 # target to generate assembly for a file
-D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.s:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.s
-.PHONY : D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.s:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.cpp.s
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.o: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.o: D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.o
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.o
 
 # target to build an object file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.cpp.o:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.cpp.o
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.o:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.o
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.i: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.i: D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.i
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.i
 
 # target to preprocess a source file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.cpp.i:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.cpp.i
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.i:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.i
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.s: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.s: D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.s
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.s
 
 # target to generate assembly for a file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.cpp.s:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.cpp.s
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.s:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.cpp.s
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.o: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.o: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.cpp.o
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.o
 
 # target to build an object file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.cpp.o:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.cpp.o
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.cpp.o:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.cpp.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.cpp.o
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.i: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.i: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.cpp.i
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.i
 
 # target to preprocess a source file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.cpp.i:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.cpp.i
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.cpp.i:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.cpp.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.cpp.i
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.s: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.s: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.cpp.s
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.s
 
 # target to generate assembly for a file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.cpp.s:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.cpp.s
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.cpp.s:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.cpp.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.cpp.s
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.o: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.o: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.cpp.o
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.o
 
 # target to build an object file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.cpp.o:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.cpp.o
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.cpp.o:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.cpp.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.cpp.o
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.i: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.i: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.cpp.i
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.i
 
 # target to preprocess a source file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.cpp.i:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.cpp.i
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.cpp.i:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.cpp.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.cpp.i
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.s: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.s: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.cpp.s
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.s
 
 # target to generate assembly for a file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.cpp.s:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.cpp.s
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.cpp.s:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.cpp.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.cpp.s
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.o: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.o: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.cpp.o
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.o
 
 # target to build an object file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.cpp.o:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.cpp.o
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.cpp.o:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.cpp.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.cpp.o
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.i: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.i: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.cpp.i
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.i
 
 # target to preprocess a source file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.cpp.i:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.cpp.i
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.cpp.i:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.cpp.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.cpp.i
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.s: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.s: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.cpp.s
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.s
 
 # target to generate assembly for a file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.cpp.s:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.cpp.s
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.cpp.s:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.cpp.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.cpp.s
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.o: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.o: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.cpp.o
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.o
 
 # target to build an object file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.cpp.o:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.cpp.o
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.cpp.o:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.cpp.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.cpp.o
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.i: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.i: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.cpp.i
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.i
 
 # target to preprocess a source file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.cpp.i:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.cpp.i
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.cpp.i:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.cpp.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.cpp.i
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.s: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.s: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.cpp.s
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.s
 
 # target to generate assembly for a file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.cpp.s:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.cpp.s
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.cpp.s:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.cpp.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.cpp.s
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.o: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.o: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.cpp.o
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.o
 
 # target to build an object file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.cpp.o:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.cpp.o
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.cpp.o:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.cpp.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.cpp.o
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.i: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.i: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.cpp.i
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.i
 
 # target to preprocess a source file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.cpp.i:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.cpp.i
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.cpp.i:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.cpp.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.cpp.i
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.s: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.s: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.cpp.s
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.s
 
 # target to generate assembly for a file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.cpp.s:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.cpp.s
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.cpp.s:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.cpp.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.cpp.s
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.o: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.o: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.cpp.o
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.o
 
 # target to build an object file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.cpp.o:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.cpp.o
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.cpp.o:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.cpp.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.cpp.o
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.i: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.i: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.cpp.i
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.i
 
 # target to preprocess a source file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.cpp.i:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.cpp.i
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.cpp.i:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.cpp.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.cpp.i
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.s: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.s: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.cpp.s
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.s
 
 # target to generate assembly for a file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.cpp.s:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.cpp.s
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.cpp.s:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.cpp.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.cpp.s
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.o: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.o: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.cpp.o
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.o
 
 # target to build an object file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.cpp.o:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.cpp.o
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.cpp.o:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.cpp.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.cpp.o
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.i: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.i: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.cpp.i
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.i
 
 # target to preprocess a source file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.cpp.i:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.cpp.i
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.cpp.i:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.cpp.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.cpp.i
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.s: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.s: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.cpp.s
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.s
 
 # target to generate assembly for a file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.cpp.s:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.cpp.s
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.cpp.s:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.cpp.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.cpp.s
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.o: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.o: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.cpp.o
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.o
 
 # target to build an object file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.cpp.o:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.cpp.o
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.cpp.o
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.cpp.o:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.cpp.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.cpp.o
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.i: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.i: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.cpp.i
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.i
 
 # target to preprocess a source file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.cpp.i:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.cpp.i
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.cpp.i
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.cpp.i:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.cpp.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.cpp.i
 
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.s: D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.s: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.cpp.s
 
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.s
 
 # target to generate assembly for a file
-D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.cpp.s:
-	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.cpp.s
-.PHONY : D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.cpp.s
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.cpp.s:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.cpp.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.cpp.s
+
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.o: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.cpp.o
+
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.o
+
+# target to build an object file
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.cpp.o:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.cpp.o
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.cpp.o
+
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.i: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.cpp.i
+
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.i
+
+# target to preprocess a source file
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.cpp.i:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.cpp.i
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.cpp.i
+
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.s: D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.cpp.s
+
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.s
+
+# target to generate assembly for a file
+D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.cpp.s:
+	$(MAKE) -f CMakeFiles/FpsCppEditorFake.dir/build.make CMakeFiles/FpsCppEditorFake.dir/D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.cpp.s
+.PHONY : D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.cpp.s
 
 # Help Target
 help:
@@ -766,68 +714,64 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... rebuild_cache"
-	@echo "... FpsCppEditor-Mac-Shipping-clean"
-	@echo "... UE4Game-clean"
-	@echo "... FpsCppEditor-Mac-DebugGame"
-	@echo "... UE4Game-Mac-DebugGame-clean"
-	@echo "... FpsCpp-Mac-Shipping-clean"
-	@echo "... FpsCpp-Mac-Shipping"
-	@echo "... UE4Editor-Mac-Shipping-clean"
-	@echo "... UE4Editor-Mac-DebugGame-clean"
-	@echo "... UE4Game"
-	@echo "... UE4Editor-Mac-Shipping"
-	@echo "... FpsCppEditorFake"
-	@echo "... UE4Editor"
-	@echo "... FpsCppEditor-Mac-Shipping"
-	@echo "... UE4Editor-Mac-DebugGame"
-	@echo "... UE4Game-Mac-Shipping"
-	@echo "... FpsCppEditor"
-	@echo "... UE4Editor-clean"
-	@echo "... UE4Game-Mac-Shipping-clean"
-	@echo "... FpsCpp-clean"
-	@echo "... UE4Game-Mac-DebugGame"
-	@echo "... FpsCpp-Mac-DebugGame"
+	@echo "... FpsCppEditor-Mac-Test"
 	@echo "... FpsCpp"
+	@echo "... FpsCpp-Mac-Shipping-clean"
+	@echo "... FpsCpp-Mac-Test-clean"
+	@echo "... FpsCpp-clean"
+	@echo "... FpsCpp-Mac-DebugGame"
+	@echo "... FpsCppEditor-Mac-Shipping-clean"
+	@echo "... FpsCpp-Mac-Test"
+	@echo "... FpsCppEditor-Mac-Test-clean"
+	@echo "... FpsCppEditorFake"
+	@echo "... FpsCpp-Mac-Shipping"
+	@echo "... FpsCpp-Mac-Debug-clean"
+	@echo "... FpsCpp-Mac-Debug"
+	@echo "... FpsCppEditor-Mac-Shipping"
+	@echo "... FpsCppEditor-Mac-Debug"
+	@echo "... FpsCppEditor-Mac-Debug-clean"
+	@echo "... FpsCppEditor-Mac-DebugGame"
 	@echo "... FpsCpp-Mac-DebugGame-clean"
 	@echo "... FpsCppEditor-Mac-DebugGame-clean"
+	@echo "... FpsCppEditor"
 	@echo "... FpsCppEditor-clean"
-	@echo "... D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.o"
-	@echo "... D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.i"
-	@echo "... D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.s"
-	@echo "... D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.o"
-	@echo "... D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.i"
-	@echo "... D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.s"
-	@echo "... D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.o"
-	@echo "... D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.i"
-	@echo "... D_/Storage/Unreal/FpsCpp/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.s"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.o"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.i"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCpp.s"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.o"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.i"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppCharacter.s"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.o"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.i"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppGameMode.s"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.o"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.i"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppHUD.s"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.o"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.i"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/FpsCppProjectile.s"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.o"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.i"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventorySlotWidget.s"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.o"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.i"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/InventoryWidget.s"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.o"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.i"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/MyPlayerController.s"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.o"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.i"
-	@echo "... D_/Storage/Unreal/FpsCpp/Source/FpsCpp/PickupActor.s"
+	@echo "... rebuild_cache"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.o"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.i"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSettings.s"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.o"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.i"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessModule.s"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.o"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.i"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Plugins/CLionSourceCodeAccess/Source/CLionSourceCodeAccess/Private/CLionSourceCodeAccessor.s"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.o"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.i"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCpp.s"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.o"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.i"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppCharacter.s"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.o"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.i"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppGameMode.s"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.o"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.i"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppHUD.s"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.o"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.i"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/FpsCppProjectile.s"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.o"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.i"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventorySlotWidget.s"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.o"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.i"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/InventoryWidget.s"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.o"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.i"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/MyPlayerController.s"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.o"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.i"
+	@echo "... D_/Storage/Unreal/FpsCpp_4.15/Source/FpsCpp/PickupActor.s"
 .PHONY : help
 
 

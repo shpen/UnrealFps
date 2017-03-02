@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++.exe 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is GNU, found in "/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/a.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_205d4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_205d4.dir/build.make CMakeFiles/cmTC_205d4.dir/build
-make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_205d4.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_205d4.dir/testCCompiler.c.o   -c /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_205d4.exe
-/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_205d4.dir/link.txt --verbose=1
-/usr/bin/cc     -Wl,--enable-auto-import  CMakeFiles/cmTC_205d4.dir/testCCompiler.c.o  -o cmTC_205d4.exe -Wl,--out-implib,libcmTC_205d4.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
-make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make.exe" "cmTC_c2729/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2729.dir/build.make CMakeFiles/cmTC_c2729.dir/build
+make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2729.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_c2729.dir/testCCompiler.c.o   -c "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_c2729.exe
+/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_c2729.dir/link.txt --verbose=1
+/usr/bin/cc     -Wl,--enable-auto-import  CMakeFiles/cmTC_c2729.dir/testCCompiler.c.o  -o cmTC_c2729.exe -Wl,--out-implib,libcmTC_c2729.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_0cdd4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0cdd4.dir/build.make CMakeFiles/cmTC_0cdd4.dir/build
-make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0cdd4.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_0cdd4.dir/CMakeCCompilerABI.c.o   -c /cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/share/cmake-3.6.3/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_0cdd4.exe
-/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_0cdd4.dir/link.txt --verbose=1
-/usr/bin/cc     -Wl,--enable-auto-import -v CMakeFiles/cmTC_0cdd4.dir/CMakeCCompilerABI.c.o  -o cmTC_0cdd4.exe -Wl,--out-implib,libcmTC_0cdd4.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Run Build Command:"/usr/bin/make.exe" "cmTC_e1076/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e1076.dir/build.make CMakeFiles/cmTC_e1076.dir/build
+make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1076.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_e1076.dir/CMakeCCompilerABI.c.o   -c /cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/share/cmake-3.6.3/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_e1076.exe
+/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_e1076.dir/link.txt --verbose=1
+/usr/bin/cc     -Wl,--enable-auto-import -v CMakeFiles/cmTC_e1076.dir/CMakeCCompilerABI.c.o  -o cmTC_e1076.exe -Wl,--out-implib,libcmTC_e1076.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/lto-wrapper.exe
@@ -59,24 +59,24 @@ Thread model: posix
 gcc version 6.3.0 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/bin/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0cdd4.exe' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccI82drS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_0cdd4.exe -L/usr/lib/w32api /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0 -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../.. --enable-auto-import CMakeFiles/cmTC_0cdd4.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_0cdd4.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0cdd4.exe' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1076.exe' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccievGw1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_e1076.exe -L/usr/lib/w32api /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0 -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../.. --enable-auto-import CMakeFiles/cmTC_e1076.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_e1076.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1076.exe' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_0cdd4/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0cdd4.dir/build.make CMakeFiles/cmTC_0cdd4.dir/build]
-  ignore line: [make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_0cdd4.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_0cdd4.dir/CMakeCCompilerABI.c.o   -c /cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/share/cmake-3.6.3/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_0cdd4.exe]
-  ignore line: [/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_0cdd4.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -Wl,--enable-auto-import -v CMakeFiles/cmTC_0cdd4.dir/CMakeCCompilerABI.c.o  -o cmTC_0cdd4.exe -Wl,--out-implib,libcmTC_0cdd4.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_e1076/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e1076.dir/build.make CMakeFiles/cmTC_e1076.dir/build]
+  ignore line: [make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_e1076.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_e1076.dir/CMakeCCompilerABI.c.o   -c /cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/share/cmake-3.6.3/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_e1076.exe]
+  ignore line: [/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_e1076.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -Wl,--enable-auto-import -v CMakeFiles/cmTC_e1076.dir/CMakeCCompilerABI.c.o  -o cmTC_e1076.exe -Wl,--out-implib,libcmTC_e1076.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/lto-wrapper.exe]
@@ -86,13 +86,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 6.3.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0cdd4.exe' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccI82drS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_0cdd4.exe -L/usr/lib/w32api /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0 -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../.. --enable-auto-import CMakeFiles/cmTC_0cdd4.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_0cdd4.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e1076.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccievGw1.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_e1076.exe -L/usr/lib/w32api /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0 -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../.. --enable-auto-import CMakeFiles/cmTC_e1076.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_e1076.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/crtend.o]
     arg [/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/cyglto_plugin.dll] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccI82drS.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccievGw1.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lcygwin] ==> ignore
@@ -125,7 +125,7 @@ Parsed C implicit link information from above output:
     arg [--dll-search-prefix=cyg] ==> ignore
     arg [--tsaware] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0cdd4.exe] ==> ignore
+    arg [cmTC_e1076.exe] ==> ignore
     arg [-L/usr/lib/w32api] ==> dir [/usr/lib/w32api]
     arg [/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/crt0.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/crtbegin.o] ==> ignore
@@ -137,9 +137,9 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib]
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../..]
     arg [--enable-auto-import] ==> ignore
-    arg [CMakeFiles/cmTC_0cdd4.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_e1076.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_0cdd4.dll.a] ==> ignore
+    arg [libcmTC_e1076.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -175,17 +175,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_699c3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_699c3.dir/build.make CMakeFiles/cmTC_699c3.dir/build
-make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_699c3.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_699c3.dir/feature_tests.c.o   -c /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_699c3.exe
-/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_699c3.dir/link.txt --verbose=1
-/usr/bin/cc     -Wl,--enable-auto-import  CMakeFiles/cmTC_699c3.dir/feature_tests.c.o  -o cmTC_699c3.exe -Wl,--out-implib,libcmTC_699c3.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
-make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make.exe" "cmTC_8cd86/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8cd86.dir/build.make CMakeFiles/cmTC_8cd86.dir/build
+make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8cd86.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_8cd86.dir/feature_tests.c.o   -c "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_8cd86.exe
+/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8cd86.dir/link.txt --verbose=1
+/usr/bin/cc     -Wl,--enable-auto-import  CMakeFiles/cmTC_8cd86.dir/feature_tests.c.o  -o cmTC_8cd86.exe -Wl,--out-implib,libcmTC_8cd86.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -195,17 +195,17 @@ make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_82b16/fast"
-/usr/bin/make -f CMakeFiles/cmTC_82b16.dir/build.make CMakeFiles/cmTC_82b16.dir/build
-make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_82b16.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_82b16.dir/feature_tests.c.o   -c /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_82b16.exe
-/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_82b16.dir/link.txt --verbose=1
-/usr/bin/cc     -Wl,--enable-auto-import  CMakeFiles/cmTC_82b16.dir/feature_tests.c.o  -o cmTC_82b16.exe -Wl,--out-implib,libcmTC_82b16.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
-make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make.exe" "cmTC_b8724/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8724.dir/build.make CMakeFiles/cmTC_b8724.dir/build
+make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8724.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_b8724.dir/feature_tests.c.o   -c "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_b8724.exe
+/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_b8724.dir/link.txt --verbose=1
+/usr/bin/cc     -Wl,--enable-auto-import  CMakeFiles/cmTC_b8724.dir/feature_tests.c.o  -o cmTC_b8724.exe -Wl,--out-implib,libcmTC_b8724.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -215,17 +215,17 @@ make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_43542/fast"
-/usr/bin/make -f CMakeFiles/cmTC_43542.dir/build.make CMakeFiles/cmTC_43542.dir/build
-make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_43542.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_43542.dir/feature_tests.c.o   -c /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_43542.exe
-/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_43542.dir/link.txt --verbose=1
-/usr/bin/cc     -Wl,--enable-auto-import  CMakeFiles/cmTC_43542.dir/feature_tests.c.o  -o cmTC_43542.exe -Wl,--out-implib,libcmTC_43542.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
-make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make.exe" "cmTC_39cca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39cca.dir/build.make CMakeFiles/cmTC_39cca.dir/build
+make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39cca.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_39cca.dir/feature_tests.c.o   -c "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_39cca.exe
+/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_39cca.dir/link.txt --verbose=1
+/usr/bin/cc     -Wl,--enable-auto-import  CMakeFiles/cmTC_39cca.dir/feature_tests.c.o  -o cmTC_39cca.exe -Wl,--out-implib,libcmTC_39cca.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -233,30 +233,30 @@ make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_0a0df/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0a0df.dir/build.make CMakeFiles/cmTC_0a0df.dir/build
-make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0a0df.dir/testCXXCompiler.cxx.o
-/usr/bin/c++.exe      -o CMakeFiles/cmTC_0a0df.dir/testCXXCompiler.cxx.o -c /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_0a0df.exe
-/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_0a0df.dir/link.txt --verbose=1
-/usr/bin/c++.exe     -Wl,--enable-auto-import  CMakeFiles/cmTC_0a0df.dir/testCXXCompiler.cxx.o  -o cmTC_0a0df.exe -Wl,--out-implib,libcmTC_0a0df.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
-make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make.exe" "cmTC_97182/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97182.dir/build.make CMakeFiles/cmTC_97182.dir/build
+make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_97182.dir/testCXXCompiler.cxx.o
+/usr/bin/c++.exe      -o CMakeFiles/cmTC_97182.dir/testCXXCompiler.cxx.o -c "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTC_97182.exe
+/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_97182.dir/link.txt --verbose=1
+/usr/bin/c++.exe     -Wl,--enable-auto-import  CMakeFiles/cmTC_97182.dir/testCXXCompiler.cxx.o  -o cmTC_97182.exe -Wl,--out-implib,libcmTC_97182.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_70014/fast"
-/usr/bin/make -f CMakeFiles/cmTC_70014.dir/build.make CMakeFiles/cmTC_70014.dir/build
-make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_70014.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++.exe      -o CMakeFiles/cmTC_70014.dir/CMakeCXXCompilerABI.cpp.o -c /cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/share/cmake-3.6.3/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_70014.exe
-/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_70014.dir/link.txt --verbose=1
-/usr/bin/c++.exe     -Wl,--enable-auto-import -v CMakeFiles/cmTC_70014.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_70014.exe -Wl,--out-implib,libcmTC_70014.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Run Build Command:"/usr/bin/make.exe" "cmTC_daf8f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_daf8f.dir/build.make CMakeFiles/cmTC_daf8f.dir/build
+make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_daf8f.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++.exe      -o CMakeFiles/cmTC_daf8f.dir/CMakeCXXCompilerABI.cpp.o -c /cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/share/cmake-3.6.3/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_daf8f.exe
+/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_daf8f.dir/link.txt --verbose=1
+/usr/bin/c++.exe     -Wl,--enable-auto-import -v CMakeFiles/cmTC_daf8f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_daf8f.exe -Wl,--out-implib,libcmTC_daf8f.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/lto-wrapper.exe
@@ -266,24 +266,24 @@ Thread model: posix
 gcc version 6.3.0 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/bin/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70014.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccscxhKQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_70014.exe -L/usr/lib/w32api /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0 -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../.. --enable-auto-import CMakeFiles/cmTC_70014.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_70014.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70014.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_daf8f.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccekfwlO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_daf8f.exe -L/usr/lib/w32api /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0 -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../.. --enable-auto-import CMakeFiles/cmTC_daf8f.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_daf8f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_daf8f.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_70014/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_70014.dir/build.make CMakeFiles/cmTC_70014.dir/build]
-  ignore line: [make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_70014.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++.exe      -o CMakeFiles/cmTC_70014.dir/CMakeCXXCompilerABI.cpp.o -c /cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/share/cmake-3.6.3/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_70014.exe]
-  ignore line: [/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_70014.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++.exe     -Wl,--enable-auto-import -v CMakeFiles/cmTC_70014.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_70014.exe -Wl,--out-implib,libcmTC_70014.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_daf8f/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_daf8f.dir/build.make CMakeFiles/cmTC_daf8f.dir/build]
+  ignore line: [make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_daf8f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++.exe      -o CMakeFiles/cmTC_daf8f.dir/CMakeCXXCompilerABI.cpp.o -c /cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/share/cmake-3.6.3/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_daf8f.exe]
+  ignore line: [/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_daf8f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++.exe     -Wl,--enable-auto-import -v CMakeFiles/cmTC_daf8f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_daf8f.exe -Wl,--out-implib,libcmTC_daf8f.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/lto-wrapper.exe]
@@ -293,13 +293,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 6.3.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70014.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccscxhKQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_70014.exe -L/usr/lib/w32api /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0 -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../.. --enable-auto-import CMakeFiles/cmTC_70014.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_70014.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_daf8f.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccekfwlO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_daf8f.exe -L/usr/lib/w32api /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0 -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../.. --enable-auto-import CMakeFiles/cmTC_daf8f.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_daf8f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/6.3.0/crtend.o]
     arg [/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/cyglto_plugin.dll] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccscxhKQ.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccekfwlO.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lcygwin] ==> ignore
@@ -332,7 +332,7 @@ Parsed CXX implicit link information from above output:
     arg [--dll-search-prefix=cyg] ==> ignore
     arg [--tsaware] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_70014.exe] ==> ignore
+    arg [cmTC_daf8f.exe] ==> ignore
     arg [-L/usr/lib/w32api] ==> dir [/usr/lib/w32api]
     arg [/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../lib/crt0.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/crtbegin.o] ==> ignore
@@ -344,9 +344,9 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../../../x86_64-pc-cygwin/lib]
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.3.0/../../..]
     arg [--enable-auto-import] ==> ignore
-    arg [CMakeFiles/cmTC_70014.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_daf8f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_70014.dll.a] ==> ignore
+    arg [libcmTC_daf8f.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -383,17 +383,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_d466d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d466d.dir/build.make CMakeFiles/cmTC_d466d.dir/build
-make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d466d.dir/feature_tests.cxx.o
-/usr/bin/c++.exe     -std=c++14 -o CMakeFiles/cmTC_d466d.dir/feature_tests.cxx.o -c /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d466d.exe
-/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_d466d.dir/link.txt --verbose=1
-/usr/bin/c++.exe     -Wl,--enable-auto-import  CMakeFiles/cmTC_d466d.dir/feature_tests.cxx.o  -o cmTC_d466d.exe -Wl,--out-implib,libcmTC_d466d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
-make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make.exe" "cmTC_f7805/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7805.dir/build.make CMakeFiles/cmTC_f7805.dir/build
+make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f7805.dir/feature_tests.cxx.o
+/usr/bin/c++.exe     -std=c++14 -o CMakeFiles/cmTC_f7805.dir/feature_tests.cxx.o -c "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_f7805.exe
+/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_f7805.dir/link.txt --verbose=1
+/usr/bin/c++.exe     -Wl,--enable-auto-import  CMakeFiles/cmTC_f7805.dir/feature_tests.cxx.o  -o cmTC_f7805.exe -Wl,--out-implib,libcmTC_f7805.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -456,17 +456,17 @@ make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_1b36d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1b36d.dir/build.make CMakeFiles/cmTC_1b36d.dir/build
-make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1b36d.dir/feature_tests.cxx.o
-/usr/bin/c++.exe     -std=c++11 -o CMakeFiles/cmTC_1b36d.dir/feature_tests.cxx.o -c /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_1b36d.exe
-/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_1b36d.dir/link.txt --verbose=1
-/usr/bin/c++.exe     -Wl,--enable-auto-import  CMakeFiles/cmTC_1b36d.dir/feature_tests.cxx.o  -o cmTC_1b36d.exe -Wl,--out-implib,libcmTC_1b36d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
-make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make.exe" "cmTC_15cbe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15cbe.dir/build.make CMakeFiles/cmTC_15cbe.dir/build
+make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_15cbe.dir/feature_tests.cxx.o
+/usr/bin/c++.exe     -std=c++11 -o CMakeFiles/cmTC_15cbe.dir/feature_tests.cxx.o -c "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_15cbe.exe
+/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_15cbe.dir/link.txt --verbose=1
+/usr/bin/c++.exe     -Wl,--enable-auto-import  CMakeFiles/cmTC_15cbe.dir/feature_tests.cxx.o  -o cmTC_15cbe.exe -Wl,--out-implib,libcmTC_15cbe.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -529,17 +529,17 @@ make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_8414f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8414f.dir/build.make CMakeFiles/cmTC_8414f.dir/build
-make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8414f.dir/feature_tests.cxx.o
-/usr/bin/c++.exe     -std=c++98 -o CMakeFiles/cmTC_8414f.dir/feature_tests.cxx.o -c /cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8414f.exe
-/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8414f.dir/link.txt --verbose=1
-/usr/bin/c++.exe     -Wl,--enable-auto-import  CMakeFiles/cmTC_8414f.dir/feature_tests.cxx.o  -o cmTC_8414f.exe -Wl,--out-implib,libcmTC_8414f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
-make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make.exe" "cmTC_d9e99/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9e99.dir/build.make CMakeFiles/cmTC_d9e99.dir/build
+make[1]: Entering directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d9e99.dir/feature_tests.cxx.o
+/usr/bin/c++.exe     -std=c++98 -o CMakeFiles/cmTC_d9e99.dir/feature_tests.cxx.o -c "/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_d9e99.exe
+/cygdrive/c/Users/Artem/.CLion2016.3/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_d9e99.dir/link.txt --verbose=1
+/usr/bin/c++.exe     -Wl,--enable-auto-import  CMakeFiles/cmTC_d9e99.dir/feature_tests.cxx.o  -o cmTC_d9e99.exe -Wl,--out-implib,libcmTC_d9e99.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/d/Storage/Unreal/FpsCpp 4.15/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
