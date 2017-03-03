@@ -5,10 +5,10 @@
 *.VC.db
 
 # CLion files
-.idea/*
+.idea/
 
 # Cmake debug files
-cmake-build-debug/*
+cmake-build-debug/
 
 # Compiled Object files
 *.slo
