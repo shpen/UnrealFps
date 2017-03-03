@@ -7,6 +7,11 @@
 # CLion files
 .idea/
 
+# Cmake paths are hardcoded
+CMakeLists.txt
+FpsCppCodeCompletionFolders.txt
+FpsCpp.workspace
+
 # Cmake debug files
 cmake-build-debug/
 
