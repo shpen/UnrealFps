@@ -30,16 +30,27 @@ AFpsCppProjectile::AFpsCppProjectile()
 	// Die after 3 seconds by default
 	InitialLifeSpan = 3.0f;
 
-	Force = 30.0f;
+	Force = 40.0f;
 }
 
 void AFpsCppProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
 	// Only add impulse and destroy projectile if we hit a physics
-	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL) && OtherComp->IsSimulatingPhysics())
-	{
-		OtherComp->AddImpulseAtLocation(GetVelocity() * Force, GetActorLocation());
+	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL)) {
+		bool success = false;
+		if (OtherComp->IsSimulatingPhysics()) {
+			OtherComp->AddImpulseAtLocation(GetVelocity() * Force, GetActorLocation());
+			success = true;
+		} else {
+			ACharacter* character = Cast<ACharacter>(OtherActor);
+			if (character) {
+				character->LaunchCharacter(GetVelocity() * Force, false, false);
+				success = true;
+			}
+		}
 
-		Destroy();
+		if (success) {
+			Destroy();
+		}
 	}
 }
