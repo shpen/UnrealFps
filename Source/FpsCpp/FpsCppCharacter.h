@@ -45,11 +45,16 @@ class AFpsCppCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class UMotionControllerComponent* L_MotionController;
 
+	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	class USpotLightComponent* flashLight;
 public:
 	AFpsCppCharacter();
 
 	UFUNCTION()
 	void Fire();
+
+	UFUNCTION()
+	void toggleFlashlight();
 
 	FTimerHandle FireTimerHandle;
 

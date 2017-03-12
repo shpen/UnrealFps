@@ -78,6 +78,10 @@ AFpsCppCharacter::AFpsCppCharacter()
 	VR_MuzzleLocation->SetRelativeLocation(FVector(0.000004, 53.999992, 10.000000));
 	VR_MuzzleLocation->SetRelativeRotation(FRotator(0.0f, 90.0f, 0.0f));		// Counteract the rotation of the VR gun model.
 
+	flashLight = CreateDefaultSubobject<USpotLightComponent>(TEXT("Flashlight"));
+	flashLight->SetupAttachment(FirstPersonCameraComponent);
+	flashLight->SetVisibility(false);
+
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
 
@@ -269,6 +273,8 @@ void AFpsCppCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 
     //Binding the Inventory action
     PlayerInputComponent->AddActionBinding(InventoryBinding);
+
+	PlayerInputComponent->BindAction("Flashlight", IE_Pressed, this, &AFpsCppCharacter::toggleFlashlight);
 }
 
 void AFpsCppCharacter::OnFire()
@@ -327,6 +333,10 @@ void AFpsCppCharacter::Fire()
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
 	}
+}
+
+void AFpsCppCharacter::toggleFlashlight() {
+	flashLight->ToggleVisibility();
 }
 
 void AFpsCppCharacter::OnResetVR()
