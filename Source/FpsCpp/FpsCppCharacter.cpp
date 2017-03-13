@@ -78,12 +78,15 @@ AFpsCppCharacter::AFpsCppCharacter()
 	VR_MuzzleLocation->SetRelativeLocation(FVector(0.000004, 53.999992, 10.000000));
 	VR_MuzzleLocation->SetRelativeRotation(FRotator(0.0f, 90.0f, 0.0f));		// Counteract the rotation of the VR gun model.
 
+	flashLightSpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("FlashlightSpringArm"));
+	flashLightSpringArm->SetupAttachment(FirstPersonCameraComponent);
+
 	flashLightNarrow = CreateDefaultSubobject<USpotLightComponent>(TEXT("FlashlightNarrow"));
-	flashLightNarrow->SetupAttachment(FirstPersonCameraComponent);
+	flashLightNarrow->SetupAttachment(flashLightSpringArm);
 	flashLightNarrow->SetVisibility(false);
 
 	flashLightWide = CreateDefaultSubobject<USpotLightComponent>(TEXT("FlashlightWide"));
-	flashLightWide->SetupAttachment(FirstPersonCameraComponent);
+	flashLightWide->SetupAttachment(flashLightSpringArm);
 	flashLightWide->SetVisibility(false);
 
 	// Uncomment the following line to turn motion controllers on by default:

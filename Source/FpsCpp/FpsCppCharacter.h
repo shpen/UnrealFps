@@ -46,6 +46,9 @@ class AFpsCppCharacter : public ACharacter
 	class UMotionControllerComponent* L_MotionController;
 
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	class USpringArmComponent* flashLightSpringArm;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 	class USpotLightComponent* flashLightNarrow;
 
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
