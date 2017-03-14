@@ -78,16 +78,21 @@ AFpsCppCharacter::AFpsCppCharacter()
 	VR_MuzzleLocation->SetRelativeLocation(FVector(0.000004, 53.999992, 10.000000));
 	VR_MuzzleLocation->SetRelativeRotation(FRotator(0.0f, 90.0f, 0.0f));		// Counteract the rotation of the VR gun model.
 
-	flashLightSpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("FlashlightSpringArm"));
-	flashLightSpringArm->SetupAttachment(FirstPersonCameraComponent);
+	isFlashlightVisible = false;
 
-	flashLightNarrow = CreateDefaultSubobject<USpotLightComponent>(TEXT("FlashlightNarrow"));
-	flashLightNarrow->SetupAttachment(flashLightSpringArm);
-	flashLightNarrow->SetVisibility(false);
+	flashlightSpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("FlashlightSpringArm"));
+	flashlightSpringArm->SetupAttachment(FirstPersonCameraComponent);
 
-	flashLightWide = CreateDefaultSubobject<USpotLightComponent>(TEXT("FlashlightWide"));
-	flashLightWide->SetupAttachment(flashLightSpringArm);
-	flashLightWide->SetVisibility(false);
+	flashlightNarrow = CreateDefaultSubobject<USpotLightComponent>(TEXT("FlashlightNarrow"));
+	flashlightNarrow->SetupAttachment(flashlightSpringArm);
+	flashlightNarrow->SetVisibility(isFlashlightVisible);
+
+	flashlightWide = CreateDefaultSubobject<USpotLightComponent>(TEXT("FlashlightWide"));
+	flashlightWide->SetupAttachment(flashlightSpringArm);
+	flashlightWide->SetVisibility(isFlashlightVisible);
+
+	flashlightHitPoint = CreateDefaultSubobject<UPointLightComponent>(TEXT("FlashlightHitPoint"));
+	flashlightHitPoint->SetVisibility(isFlashlightVisible);
 
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
@@ -130,6 +135,7 @@ void AFpsCppCharacter::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	Raycast();
+	raycastFlashlight();
 }
 
 void AFpsCppCharacter::Raycast()
@@ -170,6 +176,28 @@ void AFpsCppCharacter::Raycast()
 			LastItemSeen = nullptr;
 		}
 	}
+}
+
+void AFpsCppCharacter::raycastFlashlight() {
+	if (!isFlashlightVisible) return;
+
+	float maxDist = 2000.0f;
+
+	FVector start = flashlightNarrow->GetComponentLocation();
+	FVector end = start + flashlightNarrow->GetForwardVector() * maxDist;
+
+	FHitResult hitResult;
+	FCollisionQueryParams params;
+	params.AddIgnoredActor(this);
+
+	bool hit = GetWorld()->LineTraceSingleByChannel(hitResult, start, end, ECollisionChannel::ECC_Visibility, params);
+	if (hit) {
+		flashlightHitPoint->SetIntensity(sqrt((hitResult.Distance - maxDist) / -maxDist) * 0.03f);
+		FVector newLocation = hitResult.Location + (hitResult.Normal * 1.0f); // start + flashlightNarrow->GetForwardVector() * (hitResult.Distance - 10.0f);
+		flashlightHitPoint->SetWorldLocation(newLocation);
+	}
+
+	flashlightHitPoint->SetVisibility(hit);
 }
 
 void AFpsCppCharacter::PickupItem()
@@ -343,8 +371,10 @@ void AFpsCppCharacter::Fire()
 }
 
 void AFpsCppCharacter::toggleFlashlight() {
-	flashLightNarrow->ToggleVisibility();
-	flashLightWide->ToggleVisibility();
+	isFlashlightVisible = !isFlashlightVisible;
+	flashlightNarrow->SetVisibility(isFlashlightVisible);
+	flashlightWide->SetVisibility(isFlashlightVisible);
+	flashlightHitPoint->SetVisibility(isFlashlightVisible);
 }
 
 void AFpsCppCharacter::OnResetVR()

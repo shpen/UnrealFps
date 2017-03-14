@@ -46,13 +46,16 @@ class AFpsCppCharacter : public ACharacter
 	class UMotionControllerComponent* L_MotionController;
 
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
-	class USpringArmComponent* flashLightSpringArm;
+	class USpringArmComponent* flashlightSpringArm;
 
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
-	class USpotLightComponent* flashLightNarrow;
+	class USpotLightComponent* flashlightNarrow;
 
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
-	class USpotLightComponent* flashLightWide;
+	class USpotLightComponent* flashlightWide;
+
+	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	class UPointLightComponent* flashlightHitPoint;
 public:
 	AFpsCppCharacter();
 
@@ -83,6 +86,8 @@ protected:
 	/*Reference to the last seen pickup item. Nullptr if none*/
 	APickupActor* LastItemSeen;
 
+	void raycastFlashlight();
+
 private:
 	/*Handles the Pickup Input*/
 	UFUNCTION()
@@ -90,6 +95,8 @@ private:
 
     /*Reference to the currently equipped item*/
     APickupActor* CurrentlyEquippedItem;
+
+	bool isFlashlightVisible;
 
 public:
     /*Sets a new equipped item based on the given texture*/
