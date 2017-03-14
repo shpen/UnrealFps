@@ -93,18 +93,18 @@ private:
 	UFUNCTION()
 	void PickupItem();
 
-    /*Reference to the currently equipped item*/
-    APickupActor* CurrentlyEquippedItem;
+	/*Reference to the currently equipped item*/
+	APickupActor* CurrentlyEquippedItem;
 
 	bool isFlashlightVisible;
 
 public:
-    /*Sets a new equipped item based on the given texture*/
-    void setEquippedItem(APickupActor *item);
+	/*Sets a new equipped item based on the given texture*/
+	void setEquippedItem(APickupActor *item);
 
-    /*Drops the currently equipped item*/
-    UFUNCTION()
-    void DropEquippedItem();
+	/*Drops the currently equipped item*/
+	UFUNCTION()
+	void DropEquippedItem();
 
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
@@ -142,6 +142,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	float FireRate;
+
 protected:
 	
 	/** Fires a projectile. */
