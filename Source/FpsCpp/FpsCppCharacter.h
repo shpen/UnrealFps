@@ -143,6 +143,22 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	float FireRate;
 
+
+	// Category = Flashlight
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Flashlight)
+	float flashlightAngle;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Flashlight)
+	int32 numFlashlightTraceArcPoints;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Flashlight)
+	int32 numFlashlightTraceArcs;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Flashlight)
+	float flashlightMaxDistance;
+
+	TArray<class UPointLightComponent*> flashlightHitPoints;
 protected:
 	
 	/** Fires a projectile. */

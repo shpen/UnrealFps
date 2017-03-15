@@ -101,6 +101,20 @@ AFpsCppCharacter::AFpsCppCharacter()
 	DrawRay = false;
 	RayLength = 200.0f;
 	FireRate = 10.0f;
+
+
+	flashlightAngle = 15.0f;
+	numFlashlightTraceArcPoints = 10;
+	numFlashlightTraceArcs = 4;
+	flashlightMaxDistance = 2500.0f;
+
+	// Center arc is really just one point
+	int32 numTotalLights = numFlashlightTraceArcPoints * (numFlashlightTraceArcs - 1) + 1;
+	flashlightHitPoints.SetNum(numTotalLights);
+	for (int32 i = 0; i < numTotalLights; i++) {
+		UPointLightComponent* light = CreateDefaultSubobject<UPointLightComponent>(*FString::Printf(TEXT("FlashlightHitPoint_%u"), i));
+		flashlightHitPoints[i] = light;
+	}
 }
 
 void AFpsCppCharacter::BeginPlay()
@@ -181,10 +195,8 @@ void AFpsCppCharacter::Raycast()
 void AFpsCppCharacter::raycastFlashlight() {
 	if (!isFlashlightVisible) return;
 
-	float maxDist = 2000.0f;
-
-	FVector start = flashlightNarrow->GetComponentLocation();
-	FVector end = start + flashlightNarrow->GetForwardVector() * maxDist;
+	/*FVector start = flashlightNarrow->GetComponentLocation();
+	FVector end = start + flashlightNarrow->GetForwardVector() * flashlightMaxDistance;
 
 	FHitResult hitResult;
 	FCollisionQueryParams params;
@@ -192,12 +204,70 @@ void AFpsCppCharacter::raycastFlashlight() {
 
 	bool hit = GetWorld()->LineTraceSingleByChannel(hitResult, start, end, ECollisionChannel::ECC_Visibility, params);
 	if (hit) {
-		flashlightHitPoint->SetIntensity(sqrt((hitResult.Distance - maxDist) / -maxDist) * 0.03f);
-		FVector newLocation = hitResult.Location + (hitResult.Normal * 1.0f); // start + flashlightNarrow->GetForwardVector() * (hitResult.Distance - 10.0f);
+		flashlightHitPoint->SetIntensity(sqrt((hitResult.Distance - flashlightMaxDistance) / -flashlightMaxDistance) * 0.03f);
+		FVector newLocation = hitResult.Location + (hitResult.Normal * 1.0f);
 		flashlightHitPoint->SetWorldLocation(newLocation);
 	}
 
-	flashlightHitPoint->SetVisibility(hit);
+	flashlightHitPoint->SetVisibility(hit);*/
+
+	FVector start = flashlightNarrow->GetComponentLocation();
+	FHitResult hitResult;
+
+	//FName traceTag("FlashlightTraceTag");
+	//GetWorld()->DebugDrawTraceTag = traceTag;
+
+	FCollisionQueryParams params;
+	params.AddIgnoredActor(this);
+	//params.TraceTag = traceTag;
+
+
+	for (int32 arc = 0; arc < numFlashlightTraceArcs; arc++) {
+		for (int32 arcPoint = 0; arcPoint < numFlashlightTraceArcPoints; arcPoint++) {
+
+			// First pitch the ray up, then afterward roll it around the circle
+			float pitch = flashlightAngle * (arc / (float) numFlashlightTraceArcs);
+			float roll = 360 * arcPoint / numFlashlightTraceArcPoints;
+
+			FQuat pitchQuat(flashlightNarrow->GetRightVector(), FMath::DegreesToRadians(-pitch));
+			FQuat rollQuat(flashlightNarrow->GetForwardVector(), FMath::DegreesToRadians(roll));
+
+			FQuat quat = rollQuat * pitchQuat * flashlightNarrow->GetForwardVector().ToOrientationQuat();
+
+			FVector targetForwardVector = quat.GetForwardVector();
+			FVector end = start + targetForwardVector * flashlightMaxDistance;
+
+			// Take into account that first arc is just a point
+			int32 lightIndex = arc == 0 ? 0 : ((arc - 1) * numFlashlightTraceArcPoints + arcPoint + 1);
+			UPointLightComponent* light = flashlightHitPoints[lightIndex];
+
+			bool hit = GetWorld()->LineTraceSingleByChannel(hitResult, start, end, ECollisionChannel::ECC_Visibility, params);
+			if (hit) {
+				float intensity = sqrt((hitResult.Distance - flashlightMaxDistance) / -flashlightMaxDistance) * 0.1f;
+				intensity /= flashlightHitPoints.Num();
+				light->SetIntensity(intensity);
+				FVector newLocation = hitResult.Location + (hitResult.Normal * 1.0f);
+				light->SetWorldLocation(newLocation);
+
+				//DrawDebugPoint(GetWorld(), newLocation, 5.0f, FColor::Green);
+
+				//DrawDebugLine(GetWorld(), start, end, FColor::Green);
+
+				light->SetVisibility(false);
+				light->CastShadows = false;
+				light->bUseInverseSquaredFalloff = false;
+				light->AttenuationRadius = 5000.0f;
+				light->LightFalloffExponent = 16;
+				light->MinRoughness = 1.0f;
+				light->SetSourceRadius(100.0f);
+			}
+
+			light->SetVisibility(hit);
+
+			// Center arc is really just one point
+			if (arc == 0) break;
+		}
+	}
 }
 
 void AFpsCppCharacter::PickupItem()
